@@ -5,8 +5,8 @@
     <div class="panel panel-default">
         <div class="panel-heading">
             Posts
-        </div class="panel-body">
-        <div>
+        </div>
+        <div class="panel-body">
             @for(p <- posts){
             @if(p.getId() % 2 != 0){
             <div class="alert alert-success">
@@ -14,7 +14,8 @@
                     @p.getPostTitle()
                 </strong>
                 <p>@p.getPostContent()</p>
-                <p>@p.getAuthor().getAuthorName()</p>
+                <span>by @p.getAuthor().getAuthorName()</span>
+                <time>@p.getPostingDate().format("MMM dd yyyy, hh:mm:ss")</time>
             </div>
             }else{
             <div class="alert alert-info">
@@ -22,7 +23,8 @@
                     @p.getPostTitle()
                 </strong>
                 <p>@p.getPostContent()</p>
-                <p>@p.getAuthor().getAuthorName()</p>
+                <span>by @p.getAuthor().getAuthorName()</span>
+                <time>@p.getPostingDate().format("MMM dd yyyy, hh:mm:ss")</time>
             </div>
             }
             }

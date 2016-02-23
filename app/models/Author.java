@@ -26,6 +26,11 @@ public class Author extends Model{
         return a;
     }
 
+    public static Author findByEmail(String email){
+        Author a = find.where().eq("email", email).findUnique();
+        return a;
+    }
+
 
     public Integer getId() {
         return id;
