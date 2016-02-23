@@ -1,0 +1,32 @@
+@(posts: List[Post])
+
+@main("Play Blog") {
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Posts
+        </div class="panel-body">
+        <div>
+            @for(p <- posts){
+            @if(p.getId() % 2 != 0){
+            <div class="alert alert-success">
+                <strong>
+                    @p.getPostTitle()
+                </strong>
+                <p>@p.getPostContent()</p>
+                <p>@p.getAuthor().getAuthorName()</p>
+            </div>
+            }else{
+            <div class="alert alert-info">
+                <strong>
+                    @p.getPostTitle()
+                </strong>
+                <p>@p.getPostContent()</p>
+                <p>@p.getAuthor().getAuthorName()</p>
+            </div>
+            }
+            }
+        </div>
+    </div>
+
+}

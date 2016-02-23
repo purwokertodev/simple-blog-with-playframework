@@ -1,0 +1,6 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(E:\JIMAT\play-project\user_management\conf\application.conf,E:\JIMAT\play-project\user_management\target\scala-2.10\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(E:\JIMAT\play-project\user_management\conf\evolutions,E:\JIMAT\play-project\user_management\target\scala-2.10\classes\evolutions)[0m
+[0m[[0mdebug[0m] [0m	(E:\JIMAT\play-project\user_management\conf\routes,E:\JIMAT\play-project\user_management\target\scala-2.10\classes\routes)[0m
+[0m[[0mdebug[0m] [0m	(E:\JIMAT\play-project\user_management\conf\evolutions\default,E:\JIMAT\play-project\user_management\target\scala-2.10\classes\evolutions\default)[0m
+[0m[[0mdebug[0m] [0m	(E:\JIMAT\play-project\user_management\conf\evolutions\default\1.sql,E:\JIMAT\play-project\user_management\target\scala-2.10\classes\evolutions\default\1.sql)[0m
