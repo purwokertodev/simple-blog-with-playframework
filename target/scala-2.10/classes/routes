@@ -9,6 +9,7 @@ GET     /                           controllers.Application.index()
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
 
 GET /login                          controllers.Application.login()
+GET /logout                          controllers.Application.logout()
 POST /authenticate                   controllers.Application.authenticate()
 GET /registration                   controllers.Application.registration()
 GET /my_dashboard                   controllers.Dashboard.index()
