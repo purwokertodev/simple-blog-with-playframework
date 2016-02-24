@@ -40,7 +40,7 @@ public class Registration extends Controller {
 
                 try{
                     if(!destination.exists()){
-                        file.mkdir();
+                        destination.mkdir();
                         FileUtils.moveFile(file, destination);
                     }else{
                         FileUtils.moveFile(file, destination);
