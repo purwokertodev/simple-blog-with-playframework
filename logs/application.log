@@ -49,3 +49,9 @@ database [default] connected at jdbc:mysql://localhost:3306/play_app_1
 2016-02-24 16:15:17,225 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
+2016-02-24 16:28:53,271 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://localhost:3306/play_app_1
+
+2016-02-24 16:28:53,413 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+

@@ -1,6 +1,6 @@
 // @SOURCE:E:/JIMAT/play-project/user_management/conf/routes
-// @HASH:c171a74837108f859851f99a27257339e2680e81
-// @DATE:Wed Feb 24 14:15:53 ICT 2016
+// @HASH:27ee16a10d8d7868cfab46fa5cc5834ed3569a96
+// @DATE:Wed Feb 24 16:28:42 ICT 2016
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -31,13 +31,13 @@ class ReverseRegistration {
 
 // @LINE:14
 def registration(): Call = {
-   Call("GET", _prefix + { _defaultPrefix } + "registration")
+   Call("GET", _prefix + { _defaultPrefix } + "registration.htm")
 }
                                                 
 
 // @LINE:15
 def registrationFinish(): Call = {
-   Call("POST", _prefix + { _defaultPrefix } + "registration_finish")
+   Call("POST", _prefix + { _defaultPrefix } + "registration_finish.htm")
 }
                                                 
     
@@ -64,13 +64,13 @@ class ReverseDashboard {
 
 // @LINE:16
 def index(): Call = {
-   Call("GET", _prefix + { _defaultPrefix } + "my_dashboard")
+   Call("GET", _prefix + { _defaultPrefix } + "my_dashboard.htm")
 }
                                                 
 
 // @LINE:17
 def myProfile(): Call = {
-   Call("GET", _prefix + { _defaultPrefix } + "my_profile")
+   Call("GET", _prefix + { _defaultPrefix } + "my_profile.htm")
 }
                                                 
     
@@ -86,7 +86,7 @@ class ReverseApplication {
 
 // @LINE:12
 def logout(): Call = {
-   Call("GET", _prefix + { _defaultPrefix } + "logout")
+   Call("GET", _prefix + { _defaultPrefix } + "logout.htm")
 }
                                                 
 
@@ -98,13 +98,13 @@ def index(): Call = {
 
 // @LINE:13
 def authenticate(): Call = {
-   Call("POST", _prefix + { _defaultPrefix } + "authenticate")
+   Call("POST", _prefix + { _defaultPrefix } + "authenticate.htm")
 }
                                                 
 
 // @LINE:11
 def login(): Call = {
-   Call("GET", _prefix + { _defaultPrefix } + "login")
+   Call("GET", _prefix + { _defaultPrefix } + "login.htm")
 }
                                                 
     
@@ -135,7 +135,7 @@ def registration : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Registration.registration",
    """
       function() {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "registration"})
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "registration.htm"})
       }
    """
 )
@@ -146,7 +146,7 @@ def registrationFinish : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Registration.registrationFinish",
    """
       function() {
-      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "registration_finish"})
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "registration_finish.htm"})
       }
    """
 )
@@ -183,7 +183,7 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Dashboard.index",
    """
       function() {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "my_dashboard"})
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "my_dashboard.htm"})
       }
    """
 )
@@ -194,7 +194,7 @@ def myProfile : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Dashboard.myProfile",
    """
       function() {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "my_profile"})
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "my_profile.htm"})
       }
    """
 )
@@ -215,7 +215,7 @@ def logout : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Application.logout",
    """
       function() {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "logout"})
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "logout.htm"})
       }
    """
 )
@@ -237,7 +237,7 @@ def authenticate : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Application.authenticate",
    """
       function() {
-      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "authenticate"})
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "authenticate.htm"})
       }
    """
 )
@@ -248,7 +248,7 @@ def login : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Application.login",
    """
       function() {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "login"})
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "login.htm"})
       }
    """
 )
@@ -279,13 +279,13 @@ class ReverseRegistration {
 
 // @LINE:14
 def registration(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Registration.registration(), HandlerDef(this, "controllers.Registration", "registration", Seq(), "GET", """""", _prefix + """registration""")
+   controllers.Registration.registration(), HandlerDef(this, "controllers.Registration", "registration", Seq(), "GET", """""", _prefix + """registration.htm""")
 )
                       
 
 // @LINE:15
 def registrationFinish(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Registration.registrationFinish(), HandlerDef(this, "controllers.Registration", "registrationFinish", Seq(), "POST", """""", _prefix + """registration_finish""")
+   controllers.Registration.registrationFinish(), HandlerDef(this, "controllers.Registration", "registrationFinish", Seq(), "POST", """""", _prefix + """registration_finish.htm""")
 )
                       
     
@@ -312,13 +312,13 @@ class ReverseDashboard {
 
 // @LINE:16
 def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Dashboard.index(), HandlerDef(this, "controllers.Dashboard", "index", Seq(), "GET", """""", _prefix + """my_dashboard""")
+   controllers.Dashboard.index(), HandlerDef(this, "controllers.Dashboard", "index", Seq(), "GET", """""", _prefix + """my_dashboard.htm""")
 )
                       
 
 // @LINE:17
 def myProfile(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Dashboard.myProfile(), HandlerDef(this, "controllers.Dashboard", "myProfile", Seq(), "GET", """""", _prefix + """my_profile""")
+   controllers.Dashboard.myProfile(), HandlerDef(this, "controllers.Dashboard", "myProfile", Seq(), "GET", """""", _prefix + """my_profile.htm""")
 )
                       
     
@@ -334,7 +334,7 @@ class ReverseApplication {
 
 // @LINE:12
 def logout(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Application.logout(), HandlerDef(this, "controllers.Application", "logout", Seq(), "GET", """""", _prefix + """logout""")
+   controllers.Application.logout(), HandlerDef(this, "controllers.Application", "logout", Seq(), "GET", """""", _prefix + """logout.htm""")
 )
                       
 
@@ -346,13 +346,13 @@ def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 
 // @LINE:13
 def authenticate(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Application.authenticate(), HandlerDef(this, "controllers.Application", "authenticate", Seq(), "POST", """""", _prefix + """authenticate""")
+   controllers.Application.authenticate(), HandlerDef(this, "controllers.Application", "authenticate", Seq(), "POST", """""", _prefix + """authenticate.htm""")
 )
                       
 
 // @LINE:11
 def login(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Application.login(), HandlerDef(this, "controllers.Application", "login", Seq(), "GET", """""", _prefix + """login""")
+   controllers.Application.login(), HandlerDef(this, "controllers.Application", "login", Seq(), "GET", """""", _prefix + """login.htm""")
 )
                       
     
