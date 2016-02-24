@@ -26,12 +26,6 @@ public class Post extends Model {
 
     public static Finder<Integer, Post> find = new Finder<Integer, Post>(Integer.class, Post.class);
 
-    public static Post create(Post p, Integer authorId){
-        Author a = Author.find.ref(authorId);
-        p.setAuthor(a);
-        return p;
-    }
-
     public static List<Post> findByAuthor(Author a){
         return find.where().eq("author", a).orderBy("postingDate DESC").findList();
     }

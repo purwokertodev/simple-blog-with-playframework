@@ -10,21 +10,23 @@
             @for(p <- posts){
             @if(p.getId() % 2 != 0){
             <div class="alert alert-success">
-                <strong>
+                <h3>
                     @p.getPostTitle()
-                </strong>
+                </h3>
                 <p>@p.getPostContent()</p>
-                <span>by @p.getAuthor().getAuthorName()</span>
-                <time>@p.getPostingDate().format("MMM dd yyyy, hh:mm:ss")</time>
+				<p></p>
+                <a href="#" class="btn btn-warning btn-sm"><img src="@routes.Assets.at(p.getAuthor().getPictureLocation())"  class="img-rounded" alt="My Picture" width="40" height="40"> <span class="badge">@p.getAuthor().getAuthorName()</span></a><br>
+                <time>@p.getPostingDate().format("MMM dd yyyy, HH:mm:ss")</time>
             </div>
             }else{
             <div class="alert alert-info">
-                <strong>
+                <h3>
                     @p.getPostTitle()
-                </strong>
+                </h3>
                 <p>@p.getPostContent()</p>
-                <span>by @p.getAuthor().getAuthorName()</span>
-                <time>@p.getPostingDate().format("MMM dd yyyy, hh:mm:ss")</time>
+				<p></p>
+				<a href="#" class="btn btn-warning btn-sm"><img src="@routes.Assets.at(p.getAuthor().getPictureLocation())"  class="img-rounded" alt="My Picture" width="40" height="40"> <span class="badge">@p.getAuthor().getAuthorName()</span></a><br>
+                <time>@p.getPostingDate().format("MMM dd yyyy, HH:mm:ss")</time>
             </div>
             }
             }

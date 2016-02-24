@@ -9,24 +9,32 @@
         Posts
     </div>
     <div class="panel-body">
+	    @if(flash.contains("success")) {
+			<div class="alert alert-info">
+				<span class="close" data-dismiss="alert">&times;</span>
+				<strong>@flash.get("success")</strong>
+			</div>
+        }
         @for(p <- posts){
         @if(p.getId() % 2 != 0){
         <div class="alert alert-success">
-            <strong>
+            <h3>
                 @p.getPostTitle()
-            </strong>
+            </h3>
             <p>@p.getPostContent()</p>
-            <span>by @p.getAuthor().getAuthorName()</span>
-            <time>@p.getPostingDate().format("MMM dd yyyy, hh:mm:ss")</time>
+            <p></p>
+            <a href="#" class="btn btn-warning" btn-sm>by <span class="badge">@p.getAuthor().getAuthorName()</span></a><br>
+            <time>@p.getPostingDate().format("MMM dd yyyy, HH:mm:ss")</time>
         </div>
         }else{
         <div class="alert alert-info">
-            <strong>
+            <h3>
                 @p.getPostTitle()
-            </strong>
+            </h3>
             <p>@p.getPostContent()</p>
-            <span>by @p.getAuthor().getAuthorName()</span>
-            <time>@p.getPostingDate().format("MMM dd yyyy, hh:mm:ss")</time>
+            <p></p>
+            <a href="#" class="btn btn-warning" btn-sm>by <span class="badge">@p.getAuthor().getAuthorName()</span></a><br>
+            <time>@p.getPostingDate().format("MMM dd yyyy, HH:mm:ss")</time>
         </div>
         }
         }

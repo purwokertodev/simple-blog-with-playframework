@@ -38,7 +38,7 @@ Seq[Any](format.raw/*1.38*/("""
         </div>
         <div class="panel-body">
             """),_display_(Seq[Any](/*12.14*/if(flash.contains("success"))/*12.43*/ {_display_(Seq[Any](format.raw/*12.45*/("""
-            <div class="alert alert-danger">
+            <div class="alert alert-info">
                 <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
                 <strong>"""),_display_(Seq[Any](/*15.26*/flash/*15.31*/.get("success"))),format.raw/*15.46*/("""</strong>
             </div>
@@ -54,14 +54,14 @@ Seq[Any](format.raw/*1.38*/("""
                     <div class="form-group">
                         <label class="control-label col-sm-2" for="email">Email address:</label>
                         <div class="col-sm-4">
-                            <input type="email" class="form-control" id="email" name="email" value='"""),_display_(Seq[Any](/*29.102*/loginForm("email")/*29.120*/.value)),format.raw/*29.126*/("""'/>
+                            <input type="email" class="form-control" id="email" name="email" value='"""),_display_(Seq[Any](/*29.102*/loginForm("email")/*29.120*/.value)),format.raw/*29.126*/("""' placeholder="Your Email"/>
                         </div>
 
                     </div>
                     <div class="form-group">
                         <label class="control-label col-sm-2" for="pwd">Password:</label>
                         <div class="col-sm-4">
-                            <input type="password" class="form-control" id="pwd" name="password"/>
+                            <input type="password" class="form-control" id="pwd" name="password" placeholder="Your Password"/>
                         </div>
                     </div>
                     <div class="checkbox">
@@ -85,10 +85,10 @@ Seq[Any](format.raw/*1.38*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed Feb 24 16:14:06 ICT 2016
+                    DATE: Wed Feb 24 20:45:58 ICT 2016
                     SOURCE: E:/JIMAT/play-project/user_management/app/views/login.scala.html
-                    HASH: 92c2d99742b1be8f1885ac332685af327420af7c
-                    MATRIX: 791->1|938->37|968->59|1005->62|1030->79|1068->80|1266->242|1304->271|1344->273|1548->441|1562->446|1599->461|1675->505|1726->520|1763->548|1803->550|2007->718|2021->723|2057->737|2133->781|2184->796|2241->844|2280->845|2671->1199|2699->1217|2728->1223|3439->1902
+                    HASH: 842487845d1d3b650a8b2f95f4924d98d5dac957
+                    MATRIX: 791->1|938->37|968->59|1005->62|1030->79|1068->80|1266->242|1304->271|1344->273|1546->439|1560->444|1597->459|1673->503|1724->518|1761->546|1801->548|2005->716|2019->721|2055->735|2131->779|2182->794|2239->842|2278->843|2669->1197|2697->1215|2726->1221|3490->1953
                     LINES: 26->1|30->1|32->4|33->5|33->5|33->5|40->12|40->12|40->12|43->15|43->15|43->15|45->17|46->18|46->18|46->18|49->21|49->21|49->21|51->23|52->24|52->24|52->24|57->29|57->29|57->29|72->44
                     -- GENERATED --
                 */

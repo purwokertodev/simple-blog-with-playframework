@@ -48,7 +48,7 @@ Seq[Any](format.raw/*1.25*/("""
             <div class="form-group">
                 <label class="control-label col-sm-2" for="full_name">Full Name:</label>
                 <div class="col-sm-4">
-                    <input type="text" class="form-control" id="full_name" name="authorName"/>
+                    <input type="text" class="form-control" id="full_name" name="authorName" placeholder="Full name"/>
                 </div>
 
             </div>
@@ -62,21 +62,21 @@ Seq[Any](format.raw/*1.25*/("""
             <div class="form-group">
                 <label class="control-label col-sm-2" for="email">Email address:</label>
                 <div class="col-sm-4">
-                    <input type="email" class="form-control" id="email" name="email"/>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email"/>
                 </div>
 
             </div>
             <div class="form-group">
                 <label class="control-label col-sm-2" for="website">Website:</label>
                 <div class="col-sm-4">
-                    <input type="text" class="form-control" id="website" name="website"/>
+                    <input type="text" class="form-control" id="website" name="website" placeholder="Website"/>
                 </div>
 
             </div>
             <div class="form-group">
                 <label class="control-label col-sm-2" for="pwd">Password:</label>
                 <div class="col-sm-4">
-                    <input type="password" class="form-control" id="pwd" name="password"/>
+                    <input type="password" class="form-control" id="pwd" name="password" placeholder="Password"/>
                 </div>
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
@@ -97,10 +97,10 @@ Seq[Any](format.raw/*1.25*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed Feb 24 16:02:26 ICT 2016
+                    DATE: Wed Feb 24 20:20:34 ICT 2016
                     SOURCE: E:/JIMAT/play-project/user_management/app/views/registration.scala.html
-                    HASH: e99f147a95bac41afbb73a906bca08106ad49f93
-                    MATRIX: 787->1|921->24|951->46|988->49|1013->66|1051->67|1232->212|1269->240|1309->242|1479->376|1493->381|1529->395|1597->431|1644->442|1744->532|1784->533|3488->2205
+                    HASH: b2a40e97165bbbe3709588a9f5d7a64fd14cf3a8
+                    MATRIX: 787->1|921->24|951->46|988->49|1013->66|1051->67|1232->212|1269->240|1309->242|1479->376|1493->381|1529->395|1597->431|1644->442|1744->532|1784->533|3577->2294
                     LINES: 26->1|30->1|32->4|33->5|33->5|33->5|40->12|40->12|40->12|43->15|43->15|43->15|45->17|46->18|46->18|46->18|84->56
                     -- GENERATED --
                 */

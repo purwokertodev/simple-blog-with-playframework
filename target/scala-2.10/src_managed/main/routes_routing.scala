@@ -1,6 +1,6 @@
 // @SOURCE:E:/JIMAT/play-project/user_management/conf/routes
-// @HASH:27ee16a10d8d7868cfab46fa5cc5834ed3569a96
-// @DATE:Wed Feb 24 16:28:42 ICT 2016
+// @HASH:77ccd72c6ccdb978bf3af724e02808813498036c
+// @DATE:Wed Feb 24 20:52:06 ICT 2016
 
 
 import play.core._
@@ -37,33 +37,41 @@ private[this] lazy val controllers_Assets_at1 = Route("GET", PathPattern(List(St
         
 
 // @LINE:11
-private[this] lazy val controllers_Application_login2 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("login.htm"))))
+private[this] lazy val controllers_Application_login2 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("login.html"))))
         
 
 // @LINE:12
-private[this] lazy val controllers_Application_logout3 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("logout.htm"))))
+private[this] lazy val controllers_Application_logout3 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("logout.html"))))
         
 
 // @LINE:13
-private[this] lazy val controllers_Application_authenticate4 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("authenticate.htm"))))
+private[this] lazy val controllers_Application_authenticate4 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("authenticate.html"))))
         
 
 // @LINE:14
-private[this] lazy val controllers_Registration_registration5 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("registration.htm"))))
+private[this] lazy val controllers_Registration_registration5 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("registration.html"))))
         
 
 // @LINE:15
-private[this] lazy val controllers_Registration_registrationFinish6 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("registration_finish.htm"))))
+private[this] lazy val controllers_Registration_registrationFinish6 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("registration_finish.html"))))
         
 
 // @LINE:16
-private[this] lazy val controllers_Dashboard_index7 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("my_dashboard.htm"))))
+private[this] lazy val controllers_Dashboard_index7 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("my_dashboard.html"))))
         
 
 // @LINE:17
-private[this] lazy val controllers_Dashboard_myProfile8 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("my_profile.htm"))))
+private[this] lazy val controllers_Dashboard_myProfile8 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("my_profile.html"))))
         
-def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """login.htm""","""controllers.Application.login()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """logout.htm""","""controllers.Application.logout()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """authenticate.htm""","""controllers.Application.authenticate()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """registration.htm""","""controllers.Registration.registration()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """registration_finish.htm""","""controllers.Registration.registrationFinish()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """my_dashboard.htm""","""controllers.Dashboard.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """my_profile.htm""","""controllers.Dashboard.myProfile()""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+
+// @LINE:18
+private[this] lazy val controllers_Dashboard_newPost9 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("newpost.html"))))
+        
+
+// @LINE:19
+private[this] lazy val controllers_Dashboard_newPostFinish10 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("newpost_finish.html"))))
+        
+def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """login.html""","""controllers.Application.login()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """logout.html""","""controllers.Application.logout()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """authenticate.html""","""controllers.Application.authenticate()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """registration.html""","""controllers.Registration.registration()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """registration_finish.html""","""controllers.Registration.registrationFinish()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """my_dashboard.html""","""controllers.Dashboard.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """my_profile.html""","""controllers.Dashboard.myProfile()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """newpost.html""","""controllers.Dashboard.newPost()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """newpost_finish.html""","""controllers.Dashboard.newPostFinish()""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]] 
 }}
@@ -90,7 +98,7 @@ case controllers_Assets_at1(params) => {
 // @LINE:11
 case controllers_Application_login2(params) => {
    call { 
-        invokeHandler(controllers.Application.login(), HandlerDef(this, "controllers.Application", "login", Nil,"GET", """""", Routes.prefix + """login.htm"""))
+        invokeHandler(controllers.Application.login(), HandlerDef(this, "controllers.Application", "login", Nil,"GET", """""", Routes.prefix + """login.html"""))
    }
 }
         
@@ -98,7 +106,7 @@ case controllers_Application_login2(params) => {
 // @LINE:12
 case controllers_Application_logout3(params) => {
    call { 
-        invokeHandler(controllers.Application.logout(), HandlerDef(this, "controllers.Application", "logout", Nil,"GET", """""", Routes.prefix + """logout.htm"""))
+        invokeHandler(controllers.Application.logout(), HandlerDef(this, "controllers.Application", "logout", Nil,"GET", """""", Routes.prefix + """logout.html"""))
    }
 }
         
@@ -106,7 +114,7 @@ case controllers_Application_logout3(params) => {
 // @LINE:13
 case controllers_Application_authenticate4(params) => {
    call { 
-        invokeHandler(controllers.Application.authenticate(), HandlerDef(this, "controllers.Application", "authenticate", Nil,"POST", """""", Routes.prefix + """authenticate.htm"""))
+        invokeHandler(controllers.Application.authenticate(), HandlerDef(this, "controllers.Application", "authenticate", Nil,"POST", """""", Routes.prefix + """authenticate.html"""))
    }
 }
         
@@ -114,7 +122,7 @@ case controllers_Application_authenticate4(params) => {
 // @LINE:14
 case controllers_Registration_registration5(params) => {
    call { 
-        invokeHandler(controllers.Registration.registration(), HandlerDef(this, "controllers.Registration", "registration", Nil,"GET", """""", Routes.prefix + """registration.htm"""))
+        invokeHandler(controllers.Registration.registration(), HandlerDef(this, "controllers.Registration", "registration", Nil,"GET", """""", Routes.prefix + """registration.html"""))
    }
 }
         
@@ -122,7 +130,7 @@ case controllers_Registration_registration5(params) => {
 // @LINE:15
 case controllers_Registration_registrationFinish6(params) => {
    call { 
-        invokeHandler(controllers.Registration.registrationFinish(), HandlerDef(this, "controllers.Registration", "registrationFinish", Nil,"POST", """""", Routes.prefix + """registration_finish.htm"""))
+        invokeHandler(controllers.Registration.registrationFinish(), HandlerDef(this, "controllers.Registration", "registrationFinish", Nil,"POST", """""", Routes.prefix + """registration_finish.html"""))
    }
 }
         
@@ -130,7 +138,7 @@ case controllers_Registration_registrationFinish6(params) => {
 // @LINE:16
 case controllers_Dashboard_index7(params) => {
    call { 
-        invokeHandler(controllers.Dashboard.index(), HandlerDef(this, "controllers.Dashboard", "index", Nil,"GET", """""", Routes.prefix + """my_dashboard.htm"""))
+        invokeHandler(controllers.Dashboard.index(), HandlerDef(this, "controllers.Dashboard", "index", Nil,"GET", """""", Routes.prefix + """my_dashboard.html"""))
    }
 }
         
@@ -138,7 +146,23 @@ case controllers_Dashboard_index7(params) => {
 // @LINE:17
 case controllers_Dashboard_myProfile8(params) => {
    call { 
-        invokeHandler(controllers.Dashboard.myProfile(), HandlerDef(this, "controllers.Dashboard", "myProfile", Nil,"GET", """""", Routes.prefix + """my_profile.htm"""))
+        invokeHandler(controllers.Dashboard.myProfile(), HandlerDef(this, "controllers.Dashboard", "myProfile", Nil,"GET", """""", Routes.prefix + """my_profile.html"""))
+   }
+}
+        
+
+// @LINE:18
+case controllers_Dashboard_newPost9(params) => {
+   call { 
+        invokeHandler(controllers.Dashboard.newPost(), HandlerDef(this, "controllers.Dashboard", "newPost", Nil,"GET", """""", Routes.prefix + """newpost.html"""))
+   }
+}
+        
+
+// @LINE:19
+case controllers_Dashboard_newPostFinish10(params) => {
+   call { 
+        invokeHandler(controllers.Dashboard.newPostFinish(), HandlerDef(this, "controllers.Dashboard", "newPostFinish", Nil,"POST", """""", Routes.prefix + """newpost_finish.html"""))
    }
 }
         
