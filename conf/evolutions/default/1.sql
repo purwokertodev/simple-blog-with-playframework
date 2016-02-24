@@ -9,6 +9,7 @@ create table author (
   email                     varchar(255),
   website                   varchar(255),
   password                  varchar(255),
+  picture_location          varchar(255),
   constraint pk_author primary key (id))
 ;
 

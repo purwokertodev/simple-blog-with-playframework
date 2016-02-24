@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#user_management_2.10;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@14e5587a[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@335fcb69[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -777,6 +777,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m	local: revision in cache: commons-io#commons-io;2.4[0m
+[0m[[0mdebug[0m] [0m	found commons-io#commons-io;2.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
@@ -1218,6 +1227,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
@@ -1660,6 +1673,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-test_2.10;2.2.6 [test->default(compile)][0m
@@ -1836,6 +1853,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-android-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-android-driver;2.32.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-android-driver;2.32.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-android-driver;2.32.0[0m
@@ -1845,6 +1865,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-android-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-remote-driver;2.32.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-remote-driver;2.32.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-remote-driver;2.32.0[0m
@@ -1856,6 +1879,9 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving cglib#cglib-nodep;2.1_3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: cglib#cglib-nodep;2.1_3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: cglib#cglib-nodep;2.1_3[0m
@@ -1866,6 +1892,9 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.json#json;20080701 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.json#json;20080701 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.json#json;20080701[0m
@@ -1876,6 +1905,9 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-api;2.32.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-api;2.32.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-api;2.32.0[0m
@@ -1967,6 +1999,9 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.commons#commons-exec;1.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-exec;1.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-exec;1.1[0m
@@ -1979,6 +2014,9 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving net.java.dev.jna#jna;3.4.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.java.dev.jna#jna;3.4.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.java.dev.jna#jna;3.4.0[0m
@@ -1989,6 +2027,9 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving net.java.dev.jna#platform;3.4.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.java.dev.jna#platform;3.4.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.java.dev.jna#platform;3.4.0[0m
@@ -1998,6 +2039,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-chrome-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-chrome-driver;2.32.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-chrome-driver;2.32.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-chrome-driver;2.32.0[0m
@@ -2009,6 +2053,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0[0m
@@ -2020,6 +2067,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0->net.sourceforge.htmlunit#htmlunit;2.12 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving net.sourceforge.htmlunit#htmlunit;2.12 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.sourceforge.htmlunit#htmlunit;2.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit;2.12[0m
@@ -2038,6 +2088,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving xalan#xalan;2.7.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: xalan#xalan;2.7.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: xalan#xalan;2.7.1[0m
@@ -2059,6 +2112,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving xalan#serializer;2.7.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: xalan#serializer;2.7.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: xalan#serializer;2.7.1[0m
@@ -2089,6 +2145,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving commons-collections#commons-collections;3.2.1 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-collections#commons-collections;3.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-collections#commons-collections;3.2.1[0m
@@ -2115,6 +2174,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.apache.httpcomponents#httpmime;4.2.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.httpcomponents#httpmime;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.httpcomponents#httpmime;4.2.3[0m
@@ -2160,6 +2222,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving net.sourceforge.htmlunit#htmlunit-core-js;2.12 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.sourceforge.htmlunit#htmlunit-core-js;2.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.sourceforge.htmlunit#htmlunit-core-js;2.12[0m
@@ -2181,6 +2246,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving net.sourceforge.nekohtml#nekohtml;1.9.18 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.sourceforge.nekohtml#nekohtml;1.9.18 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.18[0m
@@ -2194,6 +2262,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving net.sourceforge.cssparser#cssparser;0.9.9 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.sourceforge.cssparser#cssparser;0.9.9 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.sourceforge.cssparser#cssparser;0.9.9[0m
@@ -2215,6 +2286,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.w3c.css#sac;1.3 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.w3c.css#sac;1.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.w3c.css#sac;1.3[0m
@@ -2227,14 +2301,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
-[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-io#commons-io;2.2[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: commons-io#commons-io;2.2[0m
-[0m[[0mdebug[0m] [0m	found commons-io#commons-io;2.2 in sbt-chain[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-io#commons-io;2.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-io#commons-io;2.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-io#commons-io;2.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-codec#commons-codec;1.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -2246,6 +2315,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-websocket;8.1.9.v20130131 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-websocket;8.1.9.v20130131 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-websocket;8.1.9.v20130131[0m
@@ -2280,6 +2352,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {compile=[default(compile)]} => dependency: junit#junit;4.11 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-util;8.1.9.v20130131 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-util;8.1.9.v20130131 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-util;8.1.9.v20130131[0m
@@ -2312,6 +2387,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {compile=[default(compile)]} => dependency: junit#junit;4.11 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-io;8.1.9.v20130131 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-io;8.1.9.v20130131 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-io;8.1.9.v20130131[0m
@@ -2346,6 +2424,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {compile=[default(compile)]} => dependency: junit#junit;4.11 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.eclipse.jetty#jetty-http;8.1.9.v20130131 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.eclipse.jetty#jetty-http;8.1.9.v20130131 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.eclipse.jetty#jetty-http;8.1.9.v20130131[0m
@@ -2362,6 +2443,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-firefox-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-firefox-driver;2.32.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-firefox-driver;2.32.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-firefox-driver;2.32.0[0m
@@ -2371,12 +2455,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.apache.commons#commons-exec;1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.apache.commons#commons-exec;1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-ie-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-ie-driver;2.32.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-ie-driver;2.32.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-ie-driver;2.32.0[0m
@@ -2392,6 +2481,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-iphone-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-iphone-driver;2.32.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-iphone-driver;2.32.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-iphone-driver;2.32.0[0m
@@ -2403,6 +2495,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-safari-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-safari-driver;2.32.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-safari-driver;2.32.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-safari-driver;2.32.0[0m
@@ -2414,6 +2509,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-safari-driver;2.32.0->org.webbitserver#webbit;0.4.14 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.webbitserver#webbit;0.4.14 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.webbitserver#webbit;0.4.14 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.webbitserver#webbit;0.4.14[0m
@@ -2432,6 +2530,9 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-support;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0minfo[0m] [0mResolving org.seleniumhq.selenium#selenium-support;2.32.0 ...[0m
 [0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.seleniumhq.selenium#selenium-support;2.32.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.seleniumhq.selenium#selenium-support;2.32.0[0m
@@ -2517,8 +2618,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.cssparser#cssparser;0.9.9->org.w3c.css#sac;1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.cssparser#cssparser;0.9.9->org.w3c.css#sac;1.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-io#commons-io;2.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-io#commons-io;2.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-io#commons-io;2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-io#commons-io;2.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->org.eclipse.jetty#jetty-websocket;8.1.9.v20130131 [runtime->runtime(*)][0m
@@ -2542,7 +2643,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.apache.commons#commons-exec;1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.apache.commons#commons-exec;1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-ie-driver;2.32.0 [runtime->runtime(*)][0m
@@ -3041,6 +3143,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#user_management_2.10;1.0-SNAPSHOT [optional][0m
@@ -3485,6 +3591,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#user_management_2.10;1.0-SNAPSHOT [optional][0m
@@ -3929,6 +4039,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-test_2.10;2.2.6 [test->default(compile)][0m
@@ -4041,26 +4155,56 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-android-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-android-driver;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-android-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-android-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.32.0->cglib#cglib-nodep;2.1_3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.32.0->cglib#cglib-nodep;2.1_3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.32.0->org.json#json;20080701 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.32.0->org.json#json;20080701 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.32.0->org.seleniumhq.selenium#selenium-api;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.32.0->org.seleniumhq.selenium#selenium-api;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-api;2.32.0->org.json#json;20080701 [compile->master(*)][0m
@@ -4117,6 +4261,12 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.32.0->org.apache.commons#commons-exec;1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
@@ -4124,27 +4274,57 @@
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.32.0->net.java.dev.jna#jna;3.4.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.32.0->net.java.dev.jna#platform;3.4.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: com.google.guava#guava;14.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-remote-driver;2.32.0->net.java.dev.jna#platform;3.4.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-chrome-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-chrome-driver;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-chrome-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-chrome-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0->org.seleniumhq.selenium#selenium-api;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0->org.seleniumhq.selenium#selenium-api;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-htmlunit-driver;2.32.0->net.sourceforge.htmlunit#htmlunit;2.12 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-codec#commons-codec;1.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -4158,6 +4338,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->xalan#xalan;2.7.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies xalan#xalan;2.7.1->xalan#serializer;2.7.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
@@ -4174,6 +4360,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies xalan#xalan;2.7.1->xalan#serializer;2.7.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies xalan#serializer;2.7.1->xml-apis#xml-apis;1.3.04 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
@@ -4199,6 +4391,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-collections#commons-collections;3.2.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;3.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
@@ -4220,6 +4418,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpcore;4.2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.apache.httpcomponents#httpcore;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.9 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->org.apache.httpcomponents#httpmime;4.2.3 [compile->compile(*)][0m
@@ -4260,6 +4464,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->net.sourceforge.htmlunit#htmlunit-core-js;2.12 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->xerces#xercesImpl;2.10.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
@@ -4276,6 +4486,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->net.sourceforge.nekohtml#nekohtml;1.9.18 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mexcluding dependency: xerces#xercesImpl;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->net.sourceforge.cssparser#cssparser;0.9.9 [compile->master(*)][0m
@@ -4284,6 +4500,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->net.sourceforge.cssparser#cssparser;0.9.9 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.cssparser#cssparser;0.9.9->org.w3c.css#sac;1.3 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
@@ -4300,6 +4522,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.cssparser#cssparser;0.9.9->org.w3c.css#sac;1.3 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-io#commons-io;2.2 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
@@ -4307,9 +4535,9 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-io#commons-io;2.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-io#commons-io;2.2 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-io#commons-io;2.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-logging#commons-logging;1.1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.apache.httpcomponents#httpclient;4.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]} => dependency: org.apache.httpcomponents#httpclient;4.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)], test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-codec#commons-codec;1.7 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-codec#commons-codec;1.6 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
@@ -4321,6 +4549,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: commons-io#commons-io;2.2 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.eclipse.jetty#jetty-server;8.1.9.v20130131 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.eclipse.jetty#jetty-server;7.2.2.v20101205 {provided=[compile(*), provided(*), runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->org.eclipse.jetty#jetty-websocket;8.1.9.v20130131 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.eclipse.jetty#jetty-server;8.1.9.v20130131 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.eclipse.jetty#jetty-server;7.2.2.v20101205 {provided=[compile(*), provided(*), runtime(*), master(*)]}[0m
@@ -4350,6 +4584,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {compile=[default(compile)]} => dependency: junit#junit;4.11 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.9.v20130131->org.eclipse.jetty#jetty-util;8.1.9.v20130131 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.9.v20130131->org.eclipse.jetty#jetty-io;8.1.9.v20130131 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.eclipse.jetty#jetty-server;8.1.9.v20130131 {provided=[compile(*), provided(*), runtime(*), master(*)]} => dependency: org.eclipse.jetty#jetty-server;7.2.2.v20101205 {provided=[compile(*), provided(*), runtime(*), master(*)]}[0m
@@ -4377,6 +4617,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {compile=[default(compile)]} => dependency: junit#junit;4.11 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.9.v20130131->org.eclipse.jetty#jetty-io;8.1.9.v20130131 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.9.v20130131->org.eclipse.jetty#jetty-util;8.1.9.v20130131 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-io;8.1.9.v20130131->org.eclipse.jetty#jetty-util;8.1.9.v20130131 [compile->compile(*)][0m
@@ -4406,6 +4652,12 @@
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.11 {compile=[default(compile)]} => dependency: junit#junit;4.11 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.eclipse.jetty#jetty-websocket;8.1.9.v20130131->org.eclipse.jetty#jetty-http;8.1.9.v20130131 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.8.1 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
@@ -4417,16 +4669,30 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-firefox-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-firefox-driver;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.2 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.4 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.apache.commons#commons-exec;1.1 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.apache.commons#commons-exec;1.1 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-ie-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-ie-driver;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-ie-driver;2.32.0->net.java.dev.jna#jna;3.4.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-ie-driver;2.32.0->net.java.dev.jna#jna;3.4.0 [compile->compile(*)][0m
@@ -4437,18 +4703,36 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-iphone-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-iphone-driver;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-iphone-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-iphone-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-safari-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-safari-driver;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-safari-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-safari-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-safari-driver;2.32.0->org.webbitserver#webbit;0.4.14 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-safari-driver;2.32.0->org.webbitserver#webbit;0.4.14 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
@@ -4462,6 +4746,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-support;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: com.google.guava#guava;14.0.1 {compile=[default(compile)]} => dependency: com.google.guava#guava;14.0 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: commons-io#commons-io;2.4 {compile=[default(compile)]} => dependency: commons-io#commons-io;2.2 {compile=[default(compile)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-support;2.32.0 [compile->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-support;2.32.0->org.seleniumhq.selenium#selenium-api;2.32.0 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-support;2.32.0->org.seleniumhq.selenium#selenium-api;2.32.0 [compile->compile(*)][0m
@@ -4557,8 +4847,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.cssparser#cssparser;0.9.9->org.w3c.css#sac;1.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.cssparser#cssparser;0.9.9->org.w3c.css#sac;1.3 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-io#commons-io;2.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-io#commons-io;2.2 [runtime->compile][0m
-[0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: junit#junit;4.10 {test=[runtime(*), master(*)]} => dependency: junit#junit;4.11 {test=[runtime(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-io#commons-io;2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-io#commons-io;2.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-logging#commons-logging;1.1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->commons-logging#commons-logging;1.1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.htmlunit#htmlunit;2.12->org.eclipse.jetty#jetty-websocket;8.1.9.v20130131 [runtime->runtime(*)][0m
@@ -4582,7 +4872,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.seleniumhq.selenium#selenium-remote-driver;2.32.0 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.2 [runtime->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->commons-io#commons-io;2.4 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.apache.commons#commons-exec;1.1 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-firefox-driver;2.32.0->org.apache.commons#commons-exec;1.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.seleniumhq.selenium#selenium-java;2.32.0->org.seleniumhq.selenium#selenium-ie-driver;2.32.0 [runtime->runtime(*)][0m
@@ -5057,14 +5348,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-doc_2.10;1.0.3->commons-io#commons-io;2.4 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0minfo[0m] [0mResolving commons-io#commons-io;2.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-io#commons-io;2.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-io#commons-io;2.4[0m
-[0m[[0mdebug[0m] [0m	local: revision in cache: commons-io#commons-io;2.4[0m
-[0m[[0mdebug[0m] [0m	found commons-io#commons-io;2.4 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-doc_2.10;1.0.3->commons-io#commons-io;2.4 [compile->compile(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-doc_2.10;1.0.3->commons-io#commons-io;2.4 [compile->runtime(*)][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-doc_2.10;1.0.3->commons-io#commons-io;2.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-doc_2.10;1.0.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.play#play-doc_2.10;1.0.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
@@ -5132,6 +5416,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java-ebean_2.10;2.2.6!play-java-ebean_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-cache_2.10;2.2.6!play-cache_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] mysql#mysql-connector-java;5.1.34!mysql-connector-java.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play_2.10;2.2.6!play_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java_2.10;2.2.6!play-java_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.10;2.2.6!play-jdbc_2.10.jar[0m
@@ -5232,7 +5517,6 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-core-js;2.12!htmlunit-core-js.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.nekohtml#nekohtml;1.9.18!nekohtml.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.cssparser#cssparser;0.9.9!cssparser.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.2!commons-io.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.eclipse.jetty#jetty-websocket;8.1.9.v20130131!jetty-websocket.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] xalan#serializer;2.7.1!serializer.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.w3c.css#sac;1.3!sac.jar[0m
@@ -5243,7 +5527,6 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-docs_2.10;2.2.6!play-docs_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-doc_2.10;1.0.3!play-doc_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.pegdown#pegdown;1.4.0!pegdown.jar[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.5!parboiled-java.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.5!parboiled-core.jar(bundle)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm;4.1!asm.jar[0m
@@ -5253,7 +5536,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 37492ms :: artifacts dl 611ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7554ms :: artifacts dl 301ms[0m
 [0m[[0mdebug[0m] [0m	report for default#user_management_2.10;1.0-SNAPSHOT compile produced in E:\JIMAT\play-project\user_management\target\resolution-cache\reports\default-user_management_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#user_management_2.10;1.0-SNAPSHOT runtime produced in E:\JIMAT\play-project\user_management\target\resolution-cache\reports\default-user_management_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#user_management_2.10;1.0-SNAPSHOT test produced in E:\JIMAT\play-project\user_management\target\resolution-cache\reports\default-user_management_2.10-test.xml[0m
@@ -5267,5 +5550,5 @@
 [0m[[0mdebug[0m] [0m	report for default#user_management_2.10;1.0-SNAPSHOT docs produced in E:\JIMAT\play-project\user_management\target\resolution-cache\reports\default-user_management_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#user_management_2.10;1.0-SNAPSHOT pom produced in E:\JIMAT\play-project\user_management\target\resolution-cache\reports\default-user_management_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#user_management_2.10;1.0-SNAPSHOT scala-tool produced in E:\JIMAT\play-project\user_management\target\resolution-cache\reports\default-user_management_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (37492ms resolve - 611ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (7554ms resolve - 301ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

@@ -1,10 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+@(regForm: Form[Author])
 
-</body>
-</html>
+@import helper._
+
+@main("Play Blog"){
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        Registration
+    </div>
+    <div class="panel-body">
+        @if(flash.contains("errors")) {
+        <div class="alert alert-danger">
+            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <strong>@flash.get("errors")</strong>
+        </div>
+        }
+        @form(action = routes.Registration.registrationFinish(), 'enctype -> "multipart/form-data"){
+        <div class="form-horizontal" role="form">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="full_name">Full Name:</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="full_name" name="authorName"/>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="picture">Profile Picture:</label>
+                <div class="col-sm-4">
+                    <input type="file" class="form-control" id="picture" name="picture"/>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email address:</label>
+                <div class="col-sm-4">
+                    <input type="email" class="form-control" id="email" name="email"/>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="website">Website:</label>
+                <div class="col-sm-4">
+                    <input type="text" class="form-control" id="website" name="website"/>
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="pwd">Password:</label>
+                <div class="col-sm-4">
+                    <input type="password" class="form-control" id="pwd" name="password"/>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+        }
+    </div>
+</div>
+
+}

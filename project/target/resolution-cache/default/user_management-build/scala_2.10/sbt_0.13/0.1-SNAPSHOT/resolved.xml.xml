@@ -4,7 +4,7 @@
 		module="user_management-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20160224001842"
+		publication="20160224111506"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

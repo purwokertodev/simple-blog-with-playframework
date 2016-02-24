@@ -18,6 +18,7 @@ public class Author extends Model{
     private String email;
     private String website;
     private String password;
+    private String pictureLocation;
 
     public static Finder<Integer, Author> find = new Finder<Integer, Author>(Integer.class, Author.class);
 
@@ -70,5 +71,13 @@ public class Author extends Model{
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public String getPictureLocation() {
+        return pictureLocation;
+    }
+
+    public void setPictureLocation(String pictureLocation) {
+        this.pictureLocation = pictureLocation;
     }
 }

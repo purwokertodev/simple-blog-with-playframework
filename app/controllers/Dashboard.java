@@ -20,4 +20,10 @@ public class Dashboard extends Controller {
         return ok(views.html.dashboard.render(posts, a));
     }
 
+    @Security.Authenticated(Secured.class)
+    public static Result myProfile(){
+        Author a = Author.findByEmail(request().username());
+        return ok(views.html.profile.render(a));
+    }
+
 }

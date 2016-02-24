@@ -2,11 +2,9 @@ package controllers;
 
 import models.Author;
 import models.Post;
-import play.*;
 import play.data.Form;
 import play.mvc.*;
 
-import views.html.*;
 
 public class Application extends Controller {
 
@@ -14,10 +12,6 @@ public class Application extends Controller {
 
     public static Result index() {
         return ok(views.html.index.render(Post.find.orderBy("postingDate DESC").findList()));
-    }
-
-    public static Result registration(){
-        return ok(views.html.registration.render());
     }
 
     public static Result login(){

@@ -1,6 +1,6 @@
 // @SOURCE:E:/JIMAT/play-project/user_management/conf/routes
-// @HASH:846d7d44605695da52da41d0ed51e6e03979b3c9
-// @DATE:Wed Feb 24 00:19:07 ICT 2016
+// @HASH:c171a74837108f859851f99a27257339e2680e81
+// @DATE:Wed Feb 24 14:15:53 ICT 2016
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -13,6 +13,8 @@ import play.libs.F
 import Router.queryString
 
 
+// @LINE:17
+// @LINE:16
 // @LINE:15
 // @LINE:14
 // @LINE:13
@@ -21,6 +23,26 @@ import Router.queryString
 // @LINE:9
 // @LINE:6
 package controllers {
+
+// @LINE:15
+// @LINE:14
+class ReverseRegistration {
+    
+
+// @LINE:14
+def registration(): Call = {
+   Call("GET", _prefix + { _defaultPrefix } + "registration")
+}
+                                                
+
+// @LINE:15
+def registrationFinish(): Call = {
+   Call("POST", _prefix + { _defaultPrefix } + "registration_finish")
+}
+                                                
+    
+}
+                          
 
 // @LINE:9
 class ReverseAssets {
@@ -35,20 +57,26 @@ def at(file:String): Call = {
 }
                           
 
-// @LINE:15
+// @LINE:17
+// @LINE:16
 class ReverseDashboard {
     
 
-// @LINE:15
+// @LINE:16
 def index(): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "my_dashboard")
+}
+                                                
+
+// @LINE:17
+def myProfile(): Call = {
+   Call("GET", _prefix + { _defaultPrefix } + "my_profile")
 }
                                                 
     
 }
                           
 
-// @LINE:14
 // @LINE:13
 // @LINE:12
 // @LINE:11
@@ -56,27 +84,21 @@ def index(): Call = {
 class ReverseApplication {
     
 
-// @LINE:14
-def registration(): Call = {
-   Call("GET", _prefix + { _defaultPrefix } + "registration")
-}
-                                                
-
 // @LINE:12
 def logout(): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "logout")
 }
                                                 
 
-// @LINE:13
-def authenticate(): Call = {
-   Call("POST", _prefix + { _defaultPrefix } + "authenticate")
-}
-                                                
-
 // @LINE:6
 def index(): Call = {
    Call("GET", _prefix)
+}
+                                                
+
+// @LINE:13
+def authenticate(): Call = {
+   Call("POST", _prefix + { _defaultPrefix } + "authenticate")
 }
                                                 
 
@@ -92,6 +114,8 @@ def login(): Call = {
                   
 
 
+// @LINE:17
+// @LINE:16
 // @LINE:15
 // @LINE:14
 // @LINE:13
@@ -100,6 +124,36 @@ def login(): Call = {
 // @LINE:9
 // @LINE:6
 package controllers.javascript {
+
+// @LINE:15
+// @LINE:14
+class ReverseRegistration {
+    
+
+// @LINE:14
+def registration : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Registration.registration",
+   """
+      function() {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "registration"})
+      }
+   """
+)
+                        
+
+// @LINE:15
+def registrationFinish : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Registration.registrationFinish",
+   """
+      function() {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "registration_finish"})
+      }
+   """
+)
+                        
+    
+}
+              
 
 // @LINE:9
 class ReverseAssets {
@@ -119,11 +173,12 @@ def at : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
-// @LINE:15
+// @LINE:17
+// @LINE:16
 class ReverseDashboard {
     
 
-// @LINE:15
+// @LINE:16
 def index : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Dashboard.index",
    """
@@ -133,28 +188,27 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
    """
 )
                         
+
+// @LINE:17
+def myProfile : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Dashboard.myProfile",
+   """
+      function() {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "my_profile"})
+      }
+   """
+)
+                        
     
 }
               
 
-// @LINE:14
 // @LINE:13
 // @LINE:12
 // @LINE:11
 // @LINE:6
 class ReverseApplication {
     
-
-// @LINE:14
-def registration : JavascriptReverseRoute = JavascriptReverseRoute(
-   "controllers.Application.registration",
-   """
-      function() {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "registration"})
-      }
-   """
-)
-                        
 
 // @LINE:12
 def logout : JavascriptReverseRoute = JavascriptReverseRoute(
@@ -167,23 +221,23 @@ def logout : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:13
-def authenticate : JavascriptReverseRoute = JavascriptReverseRoute(
-   "controllers.Application.authenticate",
-   """
-      function() {
-      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "authenticate"})
-      }
-   """
-)
-                        
-
 // @LINE:6
 def index : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Application.index",
    """
       function() {
       return _wA({method:"GET", url:"""" + _prefix + """"})
+      }
+   """
+)
+                        
+
+// @LINE:13
+def authenticate : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.authenticate",
+   """
+      function() {
+      return _wA({method:"POST", url:"""" + _prefix + { _defaultPrefix } + """" + "authenticate"})
       }
    """
 )
@@ -206,6 +260,8 @@ def login : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
+// @LINE:17
+// @LINE:16
 // @LINE:15
 // @LINE:14
 // @LINE:13
@@ -215,6 +271,26 @@ def login : JavascriptReverseRoute = JavascriptReverseRoute(
 // @LINE:6
 package controllers.ref {
 
+
+// @LINE:15
+// @LINE:14
+class ReverseRegistration {
+    
+
+// @LINE:14
+def registration(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Registration.registration(), HandlerDef(this, "controllers.Registration", "registration", Seq(), "GET", """""", _prefix + """registration""")
+)
+                      
+
+// @LINE:15
+def registrationFinish(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Registration.registrationFinish(), HandlerDef(this, "controllers.Registration", "registrationFinish", Seq(), "POST", """""", _prefix + """registration_finish""")
+)
+                      
+    
+}
+                          
 
 // @LINE:9
 class ReverseAssets {
@@ -229,20 +305,26 @@ def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.
 }
                           
 
-// @LINE:15
+// @LINE:17
+// @LINE:16
 class ReverseDashboard {
     
 
-// @LINE:15
+// @LINE:16
 def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Dashboard.index(), HandlerDef(this, "controllers.Dashboard", "index", Seq(), "GET", """""", _prefix + """my_dashboard""")
+)
+                      
+
+// @LINE:17
+def myProfile(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Dashboard.myProfile(), HandlerDef(this, "controllers.Dashboard", "myProfile", Seq(), "GET", """""", _prefix + """my_profile""")
 )
                       
     
 }
                           
 
-// @LINE:14
 // @LINE:13
 // @LINE:12
 // @LINE:11
@@ -250,27 +332,21 @@ def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 class ReverseApplication {
     
 
-// @LINE:14
-def registration(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Application.registration(), HandlerDef(this, "controllers.Application", "registration", Seq(), "GET", """""", _prefix + """registration""")
-)
-                      
-
 // @LINE:12
 def logout(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.logout(), HandlerDef(this, "controllers.Application", "logout", Seq(), "GET", """""", _prefix + """logout""")
 )
                       
 
-// @LINE:13
-def authenticate(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Application.authenticate(), HandlerDef(this, "controllers.Application", "authenticate", Seq(), "POST", """""", _prefix + """authenticate""")
-)
-                      
-
 // @LINE:6
 def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.index(), HandlerDef(this, "controllers.Application", "index", Seq(), "GET", """ Home page""", _prefix + """""")
+)
+                      
+
+// @LINE:13
+def authenticate(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.authenticate(), HandlerDef(this, "controllers.Application", "authenticate", Seq(), "POST", """""", _prefix + """authenticate""")
 )
                       
 
