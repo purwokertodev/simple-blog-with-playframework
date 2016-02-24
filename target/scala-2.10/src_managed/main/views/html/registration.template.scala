@@ -39,7 +39,7 @@ Seq[Any](format.raw/*1.25*/("""
     <div class="panel-body">
         """),_display_(Seq[Any](/*12.10*/if(flash.contains("errors"))/*12.38*/ {_display_(Seq[Any](format.raw/*12.40*/("""
         <div class="alert alert-danger">
-            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+            <span class="close" data-dismiss="alert">&times;</span>
             <strong>"""),_display_(Seq[Any](/*15.22*/flash/*15.27*/.get("errors"))),format.raw/*15.41*/("""</strong>
         </div>
         """)))})),format.raw/*17.10*/("""
@@ -97,10 +97,10 @@ Seq[Any](format.raw/*1.25*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed Feb 24 14:01:23 ICT 2016
+                    DATE: Wed Feb 24 16:02:26 ICT 2016
                     SOURCE: E:/JIMAT/play-project/user_management/app/views/registration.scala.html
-                    HASH: fec21d427ea12506f68a89358a5cb1e5b826b130
-                    MATRIX: 787->1|921->24|951->46|988->49|1013->66|1051->67|1232->212|1269->240|1309->242|1501->398|1515->403|1551->417|1619->453|1666->464|1766->554|1806->555|3510->2227
+                    HASH: e99f147a95bac41afbb73a906bca08106ad49f93
+                    MATRIX: 787->1|921->24|951->46|988->49|1013->66|1051->67|1232->212|1269->240|1309->242|1479->376|1493->381|1529->395|1597->431|1644->442|1744->532|1784->533|3488->2205
                     LINES: 26->1|30->1|32->4|33->5|33->5|33->5|40->12|40->12|40->12|43->15|43->15|43->15|45->17|46->18|46->18|46->18|84->56
                     -- GENERATED --
                 */

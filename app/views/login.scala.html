@@ -15,11 +15,11 @@
                 <strong>@flash.get("success")</strong>
             </div>
             }
-            @if(loginForm.hasGlobalErrors){
-                <div class="alert alert-danger">
-                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                    <strong>@loginForm.globalError.message</strong>
-                </div>
+            @if(flash.contains("errors")) {
+            <div class="alert alert-danger">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>@flash.get("errors")</strong>
+            </div>
             }
             @form(action = routes.Application.authenticate()){
                 <div class="form-horizontal" role="form">

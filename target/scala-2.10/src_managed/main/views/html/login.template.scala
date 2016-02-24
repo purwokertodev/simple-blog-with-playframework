@@ -43,11 +43,11 @@ Seq[Any](format.raw/*1.38*/("""
                 <strong>"""),_display_(Seq[Any](/*15.26*/flash/*15.31*/.get("success"))),format.raw/*15.46*/("""</strong>
             </div>
             """)))})),format.raw/*17.14*/("""
-            """),_display_(Seq[Any](/*18.14*/if(loginForm.hasGlobalErrors)/*18.43*/{_display_(Seq[Any](format.raw/*18.44*/("""
-                <div class="alert alert-danger">
-                    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-                    <strong>"""),_display_(Seq[Any](/*21.30*/loginForm/*21.39*/.globalError.message)),format.raw/*21.59*/("""</strong>
-                </div>
+            """),_display_(Seq[Any](/*18.14*/if(flash.contains("errors"))/*18.42*/ {_display_(Seq[Any](format.raw/*18.44*/("""
+            <div class="alert alert-danger">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>"""),_display_(Seq[Any](/*21.26*/flash/*21.31*/.get("errors"))),format.raw/*21.45*/("""</strong>
+            </div>
             """)))})),format.raw/*23.14*/("""
             """),_display_(Seq[Any](/*24.14*/form(action = routes.Application.authenticate())/*24.62*/{_display_(Seq[Any](format.raw/*24.63*/("""
                 <div class="form-horizontal" role="form">
@@ -85,10 +85,10 @@ Seq[Any](format.raw/*1.38*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed Feb 24 00:36:40 ICT 2016
+                    DATE: Wed Feb 24 16:14:06 ICT 2016
                     SOURCE: E:/JIMAT/play-project/user_management/app/views/login.scala.html
-                    HASH: 29562a2bc06cd74fbc5d9c45fb9ece0bc37346a2
-                    MATRIX: 791->1|938->37|968->59|1005->62|1030->79|1068->80|1266->242|1304->271|1344->273|1548->441|1562->446|1599->461|1675->505|1726->520|1764->549|1803->550|2019->730|2037->739|2079->759|2159->807|2210->822|2267->870|2306->871|2697->1225|2725->1243|2754->1249|3465->1928
+                    HASH: 92c2d99742b1be8f1885ac332685af327420af7c
+                    MATRIX: 791->1|938->37|968->59|1005->62|1030->79|1068->80|1266->242|1304->271|1344->273|1548->441|1562->446|1599->461|1675->505|1726->520|1763->548|1803->550|2007->718|2021->723|2057->737|2133->781|2184->796|2241->844|2280->845|2671->1199|2699->1217|2728->1223|3439->1902
                     LINES: 26->1|30->1|32->4|33->5|33->5|33->5|40->12|40->12|40->12|43->15|43->15|43->15|45->17|46->18|46->18|46->18|49->21|49->21|49->21|51->23|52->24|52->24|52->24|57->29|57->29|57->29|72->44
                     -- GENERATED --
                 */

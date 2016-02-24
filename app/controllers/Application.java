@@ -27,6 +27,7 @@ public class Application extends Controller {
     public static Result authenticate(){
         Form<Login> lf = loginForm.bindFromRequest();
         if(lf.hasErrors()){
+			flash("errors", "Invalid email or password !!");
             return badRequest(views.html.login.render(loginForm));
         }else {
             session().clear();
