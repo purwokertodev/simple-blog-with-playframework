@@ -17,7 +17,7 @@ public class Dashboard extends Controller {
     public static Result index(){
         Author a = Author.findByEmail(request().username());
         List<Post> posts = Post.findByAuthor(a);
-        return ok(views.html.dashboard.render(posts));
+        return ok(views.html.dashboard.render(posts, a));
     }
 
 }

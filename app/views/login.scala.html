@@ -9,6 +9,12 @@
             Login
         </div>
         <div class="panel-body">
+            @if(flash.contains("success")) {
+            <div class="alert alert-danger">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>@flash.get("success")</strong>
+            </div>
+            }
             @if(loginForm.hasGlobalErrors){
                 <div class="alert alert-danger">
                     <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>

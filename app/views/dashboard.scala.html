@@ -1,7 +1,11 @@
-@(posts: List[Post])
+@(posts: List[Post], author: Author)
 
-@main("Play Blog") {
-
+@dashboardtemplate("Play Blog") {
+<div class="well well-lg">
+    <span class="label label-info">
+        @author.getAuthorName()
+    </span>
+</div>
 <div class="panel panel-default">
     <div class="panel-heading">
         Posts
