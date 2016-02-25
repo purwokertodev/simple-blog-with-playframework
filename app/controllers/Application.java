@@ -7,11 +7,23 @@ import play.mvc.*;
 
 import java.util.ArrayList;
 import java.util.List;
+import play.libs.Json;
 
 
 public class Application extends Controller {
 
     public static Form<Login> loginForm = Form.form(Login.class);
+	
+	//JSON
+	public static Result allPostJson(){
+		List<Post> posts = Post.find.orderBy("postingDate DESC").findList();
+		return ok(Json.toJson(posts));
+	}
+	
+	public static Result onePostJson(Integer id){
+		Post post = Post.find.byId(id);
+		return ok(Json.toJson(post));
+	}
 
     public static Result index() {
         return paging(1);

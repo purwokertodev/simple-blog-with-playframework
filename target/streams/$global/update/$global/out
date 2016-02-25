@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#user_management_2.10;1.0-SNAPSHOT [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@335fcb69[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7fde2e90[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.3[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
@@ -786,6 +786,52 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-mapper-asl;1.9.13 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.jackson#jackson-mapper-asl;1.9.13 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\play-2.2.6\repository\local\org.codehaus.jackson\jackson-mapper-asl\1.9.13\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.codehaus.jackson#jackson-mapper-asl;1.9.13[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: found md file for org.codehaus.jackson#jackson-mapper-asl;1.9.13[0m
+[0m[[0mdebug[0m] [0m		=> file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom (1.9.13)[0m
+[0m[[0mdebug[0m] [0mdownloading file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom ...[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: downloading file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: downloading file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-mapper-asl;1.9.13!jackson-mapper-asl.pom(pom.original) (79ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\play-2.2.6\repository\local\org.codehaus.jackson\jackson-mapper-asl\1.9.13\jars\jackson-mapper-asl.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar[0m
+[0m[[0mdebug[0m] [0m	found org.codehaus.jackson#jackson-mapper-asl;1.9.13 in Maven2 Local[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.codehaus.jackson#jackson-core-asl;1.9.13 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.codehaus.jackson#jackson-core-asl;1.9.13 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0m		tried C:\play-2.2.6\repository\local\org.codehaus.jackson\jackson-core-asl\1.9.13\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for org.codehaus.jackson#jackson-core-asl;1.9.13[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: found md file for org.codehaus.jackson#jackson-core-asl;1.9.13[0m
+[0m[[0mdebug[0m] [0m		=> file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom (1.9.13)[0m
+[0m[[0mdebug[0m] [0mdownloading file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom ...[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: downloading file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: downloading file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-core-asl;1.9.13!jackson-core-asl.pom(pom.original) (55ms)[0m
+[0m[[0mdebug[0m] [0m		tried C:\play-2.2.6\repository\local\org.codehaus.jackson\jackson-core-asl\1.9.13\jars\jackson-core-asl.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar[0m
+[0m[[0mdebug[0m] [0m	found org.codehaus.jackson#jackson-core-asl;1.9.13 in Maven2 Local[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
@@ -1231,6 +1277,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
@@ -1677,6 +1735,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-test_2.10;2.2.6 [test->default(compile)][0m
@@ -3147,6 +3217,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#user_management_2.10;1.0-SNAPSHOT [optional][0m
@@ -3595,6 +3677,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for default#user_management_2.10;1.0-SNAPSHOT [optional][0m
@@ -4043,6 +4137,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->commons-io#commons-io;2.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.codehaus.jackson#jackson-mapper-asl;1.9.13->org.codehaus.jackson#jackson-core-asl;1.9.13 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-mapper-asl;1.9.13 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->org.codehaus.jackson#jackson-core-asl;1.9.13 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-java_2.10;2.2.6 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies default#user_management_2.10;1.0-SNAPSHOT->com.typesafe.play#play-test_2.10;2.2.6 [test->default(compile)][0m
@@ -5417,6 +5523,18 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-cache_2.10;2.2.6!play-cache_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] mysql#mysql-connector-java;5.1.34!mysql-connector-java.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-io#commons-io;2.4!commons-io.jar[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar[0m
+[0m[[0minfo[0m] [0mdownloading file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar ...[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: downloading file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: downloading file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-mapper-asl;1.9.13!jackson-mapper-asl.jar (225ms)[0m
+[0m[[0mdebug[0m] [0m		tried file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar[0m
+[0m[[0minfo[0m] [0mdownloading file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar ...[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: downloading file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar[0m
+[0m[[0mdebug[0m] [0m	Maven2 Local: downloading file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] org.codehaus.jackson#jackson-core-asl;1.9.13!jackson-core-asl.jar (37ms)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play_2.10;2.2.6!play_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-java_2.10;2.2.6!play-java_2.10.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.10;2.2.6!play-jdbc_2.10.jar[0m
@@ -5536,7 +5654,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 7554ms :: artifacts dl 301ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 12088ms :: artifacts dl 710ms[0m
 [0m[[0mdebug[0m] [0m	report for default#user_management_2.10;1.0-SNAPSHOT compile produced in E:\JIMAT\play-project\user_management\target\resolution-cache\reports\default-user_management_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#user_management_2.10;1.0-SNAPSHOT runtime produced in E:\JIMAT\play-project\user_management\target\resolution-cache\reports\default-user_management_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#user_management_2.10;1.0-SNAPSHOT test produced in E:\JIMAT\play-project\user_management\target\resolution-cache\reports\default-user_management_2.10-test.xml[0m
@@ -5550,5 +5668,5 @@
 [0m[[0mdebug[0m] [0m	report for default#user_management_2.10;1.0-SNAPSHOT docs produced in E:\JIMAT\play-project\user_management\target\resolution-cache\reports\default-user_management_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#user_management_2.10;1.0-SNAPSHOT pom produced in E:\JIMAT\play-project\user_management\target\resolution-cache\reports\default-user_management_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#user_management_2.10;1.0-SNAPSHOT scala-tool produced in E:\JIMAT\play-project\user_management\target\resolution-cache\reports\default-user_management_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (7554ms resolve - 301ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (12088ms resolve - 710ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

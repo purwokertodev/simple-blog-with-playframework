@@ -1,6 +1,6 @@
 // @SOURCE:E:/JIMAT/play-project/user_management/conf/routes
-// @HASH:85f5e4bb9f830bad2de830ab115f9f7a9359a2f6
-// @DATE:Thu Feb 25 16:01:08 ICT 2016
+// @HASH:3d39cb2038d7a17c2c80e4435392dddba3c02fd5
+// @DATE:Thu Feb 25 17:06:41 ICT 2016
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -13,6 +13,8 @@ import play.libs.F
 import Router.queryString
 
 
+// @LINE:26
+// @LINE:25
 // @LINE:22
 // @LINE:21
 // @LINE:20
@@ -95,6 +97,8 @@ def myProfile(): Call = {
 }
                           
 
+// @LINE:26
+// @LINE:25
 // @LINE:15
 // @LINE:14
 // @LINE:13
@@ -103,6 +107,18 @@ def myProfile(): Call = {
 // @LINE:6
 class ReverseApplication {
     
+
+// @LINE:25
+def allPostJson(): Call = {
+   Call("GET", _prefix + { _defaultPrefix } + "api/all_post_json")
+}
+                                                
+
+// @LINE:26
+def onePostJson(id:Integer): Call = {
+   Call("GET", _prefix + { _defaultPrefix } + "api/one_post_json/" + implicitly[PathBindable[Integer]].unbind("id", id))
+}
+                                                
 
 // @LINE:13
 def logout(): Call = {
@@ -146,6 +162,8 @@ def login(): Call = {
                   
 
 
+// @LINE:26
+// @LINE:25
 // @LINE:22
 // @LINE:21
 // @LINE:20
@@ -263,6 +281,8 @@ def myProfile : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
+// @LINE:26
+// @LINE:25
 // @LINE:15
 // @LINE:14
 // @LINE:13
@@ -271,6 +291,28 @@ def myProfile : JavascriptReverseRoute = JavascriptReverseRoute(
 // @LINE:6
 class ReverseApplication {
     
+
+// @LINE:25
+def allPostJson : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.allPostJson",
+   """
+      function() {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/all_post_json"})
+      }
+   """
+)
+                        
+
+// @LINE:26
+def onePostJson : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.onePostJson",
+   """
+      function(id) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/one_post_json/" + (""" + implicitly[PathBindable[Integer]].javascriptUnbind + """)("id", id)})
+      }
+   """
+)
+                        
 
 // @LINE:13
 def logout : JavascriptReverseRoute = JavascriptReverseRoute(
@@ -344,6 +386,8 @@ def login : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
+// @LINE:26
+// @LINE:25
 // @LINE:22
 // @LINE:21
 // @LINE:20
@@ -367,7 +411,7 @@ class ReverseRegistration {
 
 // @LINE:17
 def registration(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Registration.registration(), HandlerDef(this, "controllers.Registration", "registration", Seq(), "GET", """ GET /public/*path 				controllers.Application.getAuthorPicture(path)""", _prefix + """play/registration""")
+   controllers.Registration.registration(), HandlerDef(this, "controllers.Registration", "registration", Seq(), "GET", """ GET /public/*path 				     controllers.Application.getAuthorPicture(path)""", _prefix + """play/registration""")
 )
                       
 
@@ -427,6 +471,8 @@ def myProfile(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 }
                           
 
+// @LINE:26
+// @LINE:25
 // @LINE:15
 // @LINE:14
 // @LINE:13
@@ -435,6 +481,18 @@ def myProfile(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 // @LINE:6
 class ReverseApplication {
     
+
+// @LINE:25
+def allPostJson(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.allPostJson(), HandlerDef(this, "controllers.Application", "allPostJson", Seq(), "GET", """JSON""", _prefix + """api/all_post_json""")
+)
+                      
+
+// @LINE:26
+def onePostJson(id:Integer): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.onePostJson(id), HandlerDef(this, "controllers.Application", "onePostJson", Seq(classOf[Integer]), "GET", """""", _prefix + """api/one_post_json/$id<[^/]+>""")
+)
+                      
 
 // @LINE:13
 def logout(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
