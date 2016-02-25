@@ -5,13 +5,32 @@ import models.Post;
 import play.data.Form;
 import play.mvc.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 
 public class Application extends Controller {
 
     public static Form<Login> loginForm = Form.form(Login.class);
 
     public static Result index() {
-        return ok(views.html.index.render(Post.find.orderBy("postingDate DESC").findList()));
+        return paging(1);
+    }
+
+    public static Result paging(Integer page){
+        Integer banyakBaris = 2;
+        Integer totalData = Post.find.findRowCount();
+        Integer totalHalaman = (int) Math.ceil(totalData.doubleValue() / banyakBaris.doubleValue());
+        List<Post> listPost = Post.find.orderBy("postingDate DESC").findPagingList(banyakBaris).getPage(page-1).getList();
+
+        int current = page;
+        int begin = Math.max(1, current - banyakBaris);
+        int end = Math.min(begin + 4, totalHalaman);
+        List<Integer> listNum = new ArrayList<>();
+        for(int i=begin;i<end;i++){
+            listNum.add(i);
+        }
+        return ok(views.html.index.render(listPost, current, listNum,totalHalaman, totalData));
     }
 	
 	public static Result authorProfile(Integer id){

@@ -4,18 +4,19 @@
 
 # Home page
 GET     /                           controllers.Application.index()
+GET     /:page                      controllers.Application.paging(page:Integer)
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
 
-GET /login                          controllers.Application.login()
-GET /logout                      	controllers.Application.logout()
-POST /authenticate                  controllers.Application.authenticate()
-GET /author_detail/:id			    controllers.Application.authorProfile(id : Integer)
+GET /play/login                          controllers.Application.login()
+GET /play/logout                      	controllers.Application.logout()
+POST /play/authenticate                  controllers.Application.authenticate()
+GET /play/author_detail/:id			    controllers.Application.authorProfile(id : Integer)
 # GET /public/*path 				controllers.Application.getAuthorPicture(path)
-GET /registration                   controllers.Registration.registration()
-POST /registration_finish           controllers.Registration.registrationFinish()
-GET /my_dashboard                   controllers.Dashboard.index()
-GET /my_profile                     controllers.Dashboard.myProfile()
-GET /newpost						controllers.Dashboard.newPost()
-POST /newpost_finish				controllers.Dashboard.newPostFinish()
+GET /play/registration                   controllers.Registration.registration()
+POST /play/registration_finish           controllers.Registration.registrationFinish()
+GET /play/my_dashboard                   controllers.Dashboard.index()
+GET /play/my_profile                     controllers.Dashboard.myProfile()
+GET /play/newpost						controllers.Dashboard.newPost()
+POST /play/newpost_finish				controllers.Dashboard.newPostFinish()
