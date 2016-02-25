@@ -46,7 +46,9 @@ public class Application extends Controller {
     }
 	
 	public static Result authorProfile(Integer id){
-		return ok(views.html.authorprofile.render(Author.find.byId(id)));
+		Author a = Author.find.byId(id);
+		Integer totalData = Post.find.where().eq("author", a).findRowCount();
+		return ok(views.html.authorprofile.render(a, totalData));
 	}
 	
 	public static Result getAuthorPicture(String path){
