@@ -1,6 +1,6 @@
 // @SOURCE:E:/JIMAT/play-project/user_management/conf/routes
-// @HASH:77ccd72c6ccdb978bf3af724e02808813498036c
-// @DATE:Wed Feb 24 20:52:06 ICT 2016
+// @HASH:22d2d5452b9dff1ed7c96434bf4a42f065c3f183
+// @DATE:Thu Feb 25 10:23:15 ICT 2016
 
 package controllers;
 

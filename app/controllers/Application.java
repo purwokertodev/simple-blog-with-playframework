@@ -13,6 +13,14 @@ public class Application extends Controller {
     public static Result index() {
         return ok(views.html.index.render(Post.find.orderBy("postingDate DESC").findList()));
     }
+	
+	public static Result authorProfile(Integer id){
+		return ok(views.html.authorprofile.render(Author.find.byId(id)));
+	}
+	
+	public static Result getAuthorPicture(String path){
+		return ok();
+	}
 
     public static Result login(){
         return ok(views.html.login.render(loginForm));

@@ -43,7 +43,7 @@ Seq[Any](format.raw/*1.21*/("""
                 </h3>
                 <p>"""),_display_(Seq[Any](/*16.21*/p/*16.22*/.getPostContent())),format.raw/*16.39*/("""</p>
 				<p></p>
-                <a href="#" class="btn btn-warning btn-sm"><img src=""""),_display_(Seq[Any](/*18.71*/routes/*18.77*/.Assets.at(p.getAuthor().getPictureLocation()))),format.raw/*18.123*/(""""  class="img-rounded" alt="My Picture" width="40" height="40"> <span class="badge">"""),_display_(Seq[Any](/*18.208*/p/*18.209*/.getAuthor().getAuthorName())),format.raw/*18.237*/("""</span></a><br>
+                <a href=""""),_display_(Seq[Any](/*18.27*/routes/*18.33*/.Application.authorProfile(p.getAuthor().getId()))),format.raw/*18.82*/("""" class="btn btn-warning btn-sm"><img src=""""),_display_(Seq[Any](/*18.126*/routes/*18.132*/.Assets.at(p.getAuthor().getPictureLocation()))),format.raw/*18.178*/(""""  class="img-rounded" alt="My Picture" width="40" height="40"> <span class="badge">"""),_display_(Seq[Any](/*18.263*/p/*18.264*/.getAuthor().getAuthorName())),format.raw/*18.292*/("""</span></a><br>
                 <time>"""),_display_(Seq[Any](/*19.24*/p/*19.25*/.getPostingDate().format("MMM dd yyyy, HH:mm:ss"))),format.raw/*19.74*/("""</time>
             </div>
             """)))}/*21.14*/else/*21.18*/{_display_(Seq[Any](format.raw/*21.19*/("""
@@ -53,7 +53,7 @@ Seq[Any](format.raw/*1.21*/("""
                 </h3>
                 <p>"""),_display_(Seq[Any](/*26.21*/p/*26.22*/.getPostContent())),format.raw/*26.39*/("""</p>
 				<p></p>
-				<a href="#" class="btn btn-warning btn-sm"><img src=""""),_display_(Seq[Any](/*28.59*/routes/*28.65*/.Assets.at(p.getAuthor().getPictureLocation()))),format.raw/*28.111*/(""""  class="img-rounded" alt="My Picture" width="40" height="40"> <span class="badge">"""),_display_(Seq[Any](/*28.196*/p/*28.197*/.getAuthor().getAuthorName())),format.raw/*28.225*/("""</span></a><br>
+				<a href=""""),_display_(Seq[Any](/*28.15*/routes/*28.21*/.Application.authorProfile(p.getAuthor().getId()))),format.raw/*28.70*/("""" class="btn btn-warning btn-sm"><img src=""""),_display_(Seq[Any](/*28.114*/routes/*28.120*/.Assets.at(p.getAuthor().getPictureLocation()))),format.raw/*28.166*/(""""  class="img-rounded" alt="My Picture" width="40" height="40"> <span class="badge">"""),_display_(Seq[Any](/*28.251*/p/*28.252*/.getAuthor().getAuthorName())),format.raw/*28.280*/("""</span></a><br>
                 <time>"""),_display_(Seq[Any](/*29.24*/p/*29.25*/.getPostingDate().format("MMM dd yyyy, HH:mm:ss"))),format.raw/*29.74*/("""</time>
             </div>
             """)))})),format.raw/*31.14*/("""
@@ -74,11 +74,11 @@ Seq[Any](format.raw/*1.21*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed Feb 24 21:25:50 ICT 2016
+                    DATE: Thu Feb 25 09:51:29 ICT 2016
                     SOURCE: E:/JIMAT/play-project/user_management/app/views/index.scala.html
-                    HASH: 68dd3ff29fb2483670e37eff0c2d03b97ffaef9b
-                    MATRIX: 778->1|891->20|928->23|953->40|992->42|1183->197|1214->212|1253->213|1303->227|1334->249|1373->250|1498->339|1508->340|1545->355|1624->398|1634->399|1673->416|1796->503|1811->509|1880->555|2002->640|2013->641|2064->669|2139->708|2149->709|2220->758|2279->798|2292->802|2331->803|2453->889|2463->890|2500->905|2579->948|2589->949|2628->966|2739->1041|2754->1047|2823->1093|2945->1178|2956->1179|3007->1207|3082->1246|3092->1247|3163->1296|3235->1336|3281->1350|3341->1379
-                    LINES: 26->1|29->1|31->3|31->3|31->3|38->10|38->10|38->10|39->11|39->11|39->11|42->14|42->14|42->14|44->16|44->16|44->16|46->18|46->18|46->18|46->18|46->18|46->18|47->19|47->19|47->19|49->21|49->21|49->21|52->24|52->24|52->24|54->26|54->26|54->26|56->28|56->28|56->28|56->28|56->28|56->28|57->29|57->29|57->29|59->31|60->32|64->36
+                    HASH: b72f2b6521d1a850b9a49b62d651879eff9bdfa7
+                    MATRIX: 778->1|891->20|928->23|953->40|992->42|1183->197|1214->212|1253->213|1303->227|1334->249|1373->250|1498->339|1508->340|1545->355|1624->398|1634->399|1673->416|1752->459|1767->465|1838->514|1919->558|1935->564|2004->610|2126->695|2137->696|2188->724|2263->763|2273->764|2344->813|2403->853|2416->857|2455->858|2577->944|2587->945|2624->960|2703->1003|2713->1004|2752->1021|2819->1052|2834->1058|2905->1107|2986->1151|3002->1157|3071->1203|3193->1288|3204->1289|3255->1317|3330->1356|3340->1357|3411->1406|3483->1446|3529->1460|3589->1489
+                    LINES: 26->1|29->1|31->3|31->3|31->3|38->10|38->10|38->10|39->11|39->11|39->11|42->14|42->14|42->14|44->16|44->16|44->16|46->18|46->18|46->18|46->18|46->18|46->18|46->18|46->18|46->18|47->19|47->19|47->19|49->21|49->21|49->21|52->24|52->24|52->24|54->26|54->26|54->26|56->28|56->28|56->28|56->28|56->28|56->28|56->28|56->28|56->28|57->29|57->29|57->29|59->31|60->32|64->36
                     -- GENERATED --
                 */
             

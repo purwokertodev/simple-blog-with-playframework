@@ -15,7 +15,7 @@
                 </h3>
                 <p>@p.getPostContent()</p>
 				<p></p>
-                <a href="#" class="btn btn-warning btn-sm"><img src="@routes.Assets.at(p.getAuthor().getPictureLocation())"  class="img-rounded" alt="My Picture" width="40" height="40"> <span class="badge">@p.getAuthor().getAuthorName()</span></a><br>
+                <a href="@routes.Application.authorProfile(p.getAuthor().getId())" class="btn btn-warning btn-sm"><img src="@routes.Assets.at(p.getAuthor().getPictureLocation())"  class="img-rounded" alt="My Picture" width="40" height="40"> <span class="badge">@p.getAuthor().getAuthorName()</span></a><br>
                 <time>@p.getPostingDate().format("MMM dd yyyy, HH:mm:ss")</time>
             </div>
             }else{
@@ -25,7 +25,7 @@
                 </h3>
                 <p>@p.getPostContent()</p>
 				<p></p>
-				<a href="#" class="btn btn-warning btn-sm"><img src="@routes.Assets.at(p.getAuthor().getPictureLocation())"  class="img-rounded" alt="My Picture" width="40" height="40"> <span class="badge">@p.getAuthor().getAuthorName()</span></a><br>
+				<a href="@routes.Application.authorProfile(p.getAuthor().getId())" class="btn btn-warning btn-sm"><img src="@routes.Assets.at(p.getAuthor().getPictureLocation())"  class="img-rounded" alt="My Picture" width="40" height="40"> <span class="badge">@p.getAuthor().getAuthorName()</span></a><br>
                 <time>@p.getPostingDate().format("MMM dd yyyy, HH:mm:ss")</time>
             </div>
             }

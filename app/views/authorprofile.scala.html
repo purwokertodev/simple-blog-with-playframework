@@ -1,0 +1,25 @@
+@(author: Author)
+
+@main("Play Blog") {
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Author
+        </div>
+        <div class="panel-body">
+            <div class="panel panel-info">
+				<div class="panel-heading">
+					<h3>@author.getAuthorName()'s Profile</h3>
+					<p><a href="#" class="btn btn-info">All Post <span class="badge">#</span></a></p>
+				</div>
+				<div class="panel-body">
+				    <img src="@routes.Assets.at(author.getPictureLocation())"  class="img-rounded" alt="My Picture" width="300" height="300">
+					<p></p>
+					<p><a href="#" class="btn btn-info">Email : <span class="badge">@author.getEmail()</span></a></p>
+					<p><a href="#" class="btn btn-info">Website : <span class="badge">@author.getWebsite()</span></a></p>
+				</div>
+			</div>
+        </div>
+    </div>
+
+}
