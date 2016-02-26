@@ -48,41 +48,41 @@ Seq[Any](format.raw/*1.25*/("""
             <div class="form-group">
                 <label class="control-label col-sm-2" for="full_name">Full Name:</label>
                 <div class="col-sm-4">
-                    <input type="text" class="form-control" id="full_name" name="authorName" placeholder="Full name"/>
+                    <input type="text" required="true" class="form-control" id="full_name" name="authorName" placeholder="Full name"/>
                 </div>
 
             </div>
             <div class="form-group">
                 <label class="control-label col-sm-2" for="picture">Profile Picture:</label>
                 <div class="col-sm-4">
-                    <input type="file" class="form-control" id="picture" name="picture"/>
+                    <input type="file" required="true" class="form-control" id="picture" name="picture"/>
                 </div>
 
             </div>
             <div class="form-group">
                 <label class="control-label col-sm-2" for="email">Email address:</label>
                 <div class="col-sm-4">
-                    <input type="email" class="form-control" id="email" name="email" placeholder="Email"/>
+                    <input type="email" required="true" class="form-control" id="email" name="email" placeholder="Email"/>
                 </div>
 
             </div>
             <div class="form-group">
                 <label class="control-label col-sm-2" for="website">Website:</label>
                 <div class="col-sm-4">
-                    <input type="text" class="form-control" id="website" name="website" placeholder="Website"/>
+                    <input type="text" required="true" class="form-control" id="website" name="website" placeholder="Website"/>
                 </div>
 
             </div>
             <div class="form-group">
                 <label class="control-label col-sm-2" for="pwd">Password:</label>
                 <div class="col-sm-4">
-                    <input type="password" class="form-control" id="pwd1" name="password" placeholder="Password"/>
+                    <input type="password" required="true" class="form-control" id="pwd1" name="password" placeholder="Password"/>
                 </div>
             </div>
 			<div class="form-group">
 				<label class="control-label col-sm-2" for="pwd2">Confirm Password:</label>
 				<div class="col-sm-4">
-					<input type="password" class="form-control" id="pwd2" name="password2" placeholder="Type your password again" onkeyup="checkPass(); return false;"/>
+					<input type="password" required="true" class="form-control" id="pwd2" name="password2" placeholder="Type your password again" onkeyup="checkPass(); return false;"/>
 				</div>
 				<span id="confirmMessage"></span>
 			</div>
@@ -104,10 +104,10 @@ Seq[Any](format.raw/*1.25*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Fri Feb 26 14:08:13 ICT 2016
+                    DATE: Fri Feb 26 14:20:50 ICT 2016
                     SOURCE: E:/JIMAT/play-project/user_management/app/views/registration.scala.html
-                    HASH: 5310ca00f6698262a183d2e000d786f19d3d137a
-                    MATRIX: 787->1|921->24|951->46|988->49|1013->66|1051->67|1232->212|1269->240|1309->242|1479->376|1493->381|1529->395|1597->431|1644->442|1744->532|1784->533|3932->2649
+                    HASH: bff068c66923f68ce575cbb6e3297bc71f747519
+                    MATRIX: 787->1|921->24|951->46|988->49|1013->66|1051->67|1232->212|1269->240|1309->242|1479->376|1493->381|1529->395|1597->431|1644->442|1744->532|1784->533|4028->2745
                     LINES: 26->1|30->1|32->4|33->5|33->5|33->5|40->12|40->12|40->12|43->15|43->15|43->15|45->17|46->18|46->18|46->18|91->63
                     -- GENERATED --
                 */
