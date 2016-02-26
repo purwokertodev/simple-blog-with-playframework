@@ -1,44 +1,65 @@
-@(posts: List[Post], author: Author)
+@(posts: List[Post], current:Integer, li:List[Integer], totalHalaman: Integer, totalData: Integer)
 
-@dashboardtemplate("Play Blog") {
-<div class="well well-lg">
-    <h3>@author.getAuthorName()</h3>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading">
-        Posts
-    </div>
-    <div class="panel-body">
-	    @if(flash.contains("success")) {
-			<div class="alert alert-info">
-				<span class="close" data-dismiss="alert">&times;</span>
-				<strong>@flash.get("success")</strong>
-			</div>
-        }
-        @for(p <- posts){
-        @if(p.getId() % 2 != 0){
-        <div class="alert alert-success">
-            <h3>
-                @p.getPostTitle()
-            </h3>
-            <p>@p.getPostContent()</p>
-            <p></p>
-            <a href="#" class="btn btn-warning" btn-sm>by <span class="badge">@p.getAuthor().getAuthorName()</span></a><br>
-            <time>@p.getPostingDate().format("MMM dd yyyy, HH:mm:ss")</time>
+@main("Play Blog") {
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Posts
         </div>
-        }else{
-        <div class="alert alert-info">
-            <h3>
-                @p.getPostTitle()
-            </h3>
-            <p>@p.getPostContent()</p>
-            <p></p>
-            <a href="#" class="btn btn-warning" btn-sm>by <span class="badge">@p.getAuthor().getAuthorName()</span></a><br>
-            <time>@p.getPostingDate().format("MMM dd yyyy, HH:mm:ss")</time>
+        <div class="panel-body">
+            @for(p <- posts){
+            @if(p.getId() % 2 != 0){
+            <div class="alert alert-success">
+                <h3>
+                    @p.getPostTitle()
+                </h3>
+                <p>@p.getPostContent()</p>
+				<p></p>
+                <a href="@routes.Dashboard.myProfile()" class="btn btn-warning btn-sm"><img src="@routes.Assets.at(p.getAuthor().getPictureLocation())"  class="img-rounded" alt="My Picture" width="40" height="40"> <span class="badge">@p.getAuthor().getAuthorName()</span></a><br>
+                <time>@p.getPostingDate().format("MMM dd yyyy, HH:mm:ss")</time>
+            </div>
+            }else{
+            <div class="alert alert-info">
+                <h3>
+                    @p.getPostTitle()
+                </h3>
+                <p>@p.getPostContent()</p>
+				<p></p>
+				<a href="@routes.Dashboard.myProfile()" class="btn btn-warning btn-sm"><img src="@routes.Assets.at(p.getAuthor().getPictureLocation())"  class="img-rounded" alt="My Picture" width="40" height="40"> <span class="badge">@p.getAuthor().getAuthorName()</span></a><br>
+                <time>@p.getPostingDate().format("MMM dd yyyy, HH:mm:ss")</time>
+            </div>
+            }
+            }
+            <table align="center">
+                <tr>
+                    <td>
+                        @if(current == 1){
+                            <a href="#" class="btn btn-info">First</a>
+                            <a href="#" class="btn btn-success">Prev</a>
+                        }else{
+                            <a href="@routes.Dashboard.pagingDashboard(1)" class="btn btn-info">First</a>
+                            <a href="@routes.Dashboard.pagingDashboard(current - 1)" class="btn btn-success">Prev</a>
+                        }
+                        <!-- Page -->
+                        <!--@for(i <- li){-->
+                            <!--@if(i == current){-->
+                                <!--<a href="@routes.Application.paging(i)">@i</a>-->
+                            <!--}else{-->
+                                 <!--<a href="@i">@i</a>-->
+                            <!--}-->
+                        <!--}-->
+                        <!-- Next and last page -->
+                        @if(current == totalHalaman ){
+                            <a href="#" class="btn btn-success">Next</a>
+                            <a href="#" class="btn btn-info">Last</a>
+                        }else{
+                            <a href="@routes.Dashboard.pagingDashboard(current + 1)" class="btn btn-success">Next</a>
+                            <a href="@routes.Dashboard.pagingDashboard(totalHalaman )" class="btn btn-info">Last</a>
+                        }
+                    </td>
+                </tr>
+            </table>
         </div>
-        }
-        }
     </div>
-</div>
 
 }

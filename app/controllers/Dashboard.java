@@ -8,6 +8,7 @@ import play.mvc.Result;
 import play.mvc.Security;
 
 import java.util.List;
+import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -19,9 +20,26 @@ public class Dashboard extends Controller {
 
     @Security.Authenticated(Secured.class)
     public static Result index(){
-        Author a = Author.findByEmail(request().username());
-        List<Post> posts = Post.findByAuthor(a);
-        return ok(views.html.dashboard.render(posts, a));
+		return pagingDashboard(1);
+    }
+	
+	@Security.Authenticated(Secured.class)
+	public static Result pagingDashboard(Integer page){
+		Author a = Author.findByEmail(request().username());
+		
+		Integer banyakBaris = 2;
+		Integer totalData = Post.find.where().eq("author", a).findRowCount();
+		Integer totalHalaman = (int) Math.ceil(totalData.doubleValue() / banyakBaris.doubleValue());
+		List<Post> listPost = Post.find.where().eq("author", a).orderBy("postingDate DESC").findPagingList(banyakBaris).getPage(page-1).getList();
+
+		int current = page;
+		int begin = Math.max(1, current - banyakBaris);
+		int end = Math.min(begin + 4, totalHalaman);
+		List<Integer> listNum = new ArrayList<>();
+		for(int i=begin;i<end;i++){
+			listNum.add(i);
+		}
+		return ok(views.html.dashboard.render(listPost, current, listNum,totalHalaman, totalData));
     }
 
     @Security.Authenticated(Secured.class)

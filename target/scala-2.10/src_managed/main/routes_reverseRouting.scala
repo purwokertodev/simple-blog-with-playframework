@@ -1,6 +1,6 @@
 // @SOURCE:E:/JIMAT/play-project/user_management/conf/routes
-// @HASH:3d39cb2038d7a17c2c80e4435392dddba3c02fd5
-// @DATE:Thu Feb 25 17:06:41 ICT 2016
+// @HASH:eaf022bbca01943dc13c4bd2b9f6c02dfcb4df6b
+// @DATE:Fri Feb 26 13:33:42 ICT 2016
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -13,8 +13,9 @@ import play.libs.F
 import Router.queryString
 
 
+// @LINE:27
 // @LINE:26
-// @LINE:25
+// @LINE:23
 // @LINE:22
 // @LINE:21
 // @LINE:20
@@ -63,6 +64,7 @@ def at(file:String): Call = {
 }
                           
 
+// @LINE:23
 // @LINE:22
 // @LINE:21
 // @LINE:20
@@ -70,13 +72,25 @@ def at(file:String): Call = {
 class ReverseDashboard {
     
 
-// @LINE:22
+// @LINE:20
+def pagingDashboard(page:Integer): Call = {
+   Call("GET", _prefix + { _defaultPrefix } + "play/my_dashboard/" + implicitly[PathBindable[Integer]].unbind("page", page))
+}
+                                                
+
+// @LINE:21
+def myProfile(): Call = {
+   Call("GET", _prefix + { _defaultPrefix } + "play/my_profile")
+}
+                                                
+
+// @LINE:23
 def newPostFinish(): Call = {
    Call("POST", _prefix + { _defaultPrefix } + "play/newpost_finish")
 }
                                                 
 
-// @LINE:21
+// @LINE:22
 def newPost(): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "play/newpost")
 }
@@ -87,18 +101,12 @@ def index(): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "play/my_dashboard")
 }
                                                 
-
-// @LINE:20
-def myProfile(): Call = {
-   Call("GET", _prefix + { _defaultPrefix } + "play/my_profile")
-}
-                                                
     
 }
                           
 
+// @LINE:27
 // @LINE:26
-// @LINE:25
 // @LINE:15
 // @LINE:14
 // @LINE:13
@@ -108,13 +116,13 @@ def myProfile(): Call = {
 class ReverseApplication {
     
 
-// @LINE:25
+// @LINE:26
 def allPostJson(): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "api/all_post_json")
 }
                                                 
 
-// @LINE:26
+// @LINE:27
 def onePostJson(id:Integer): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "api/one_post_json/" + implicitly[PathBindable[Integer]].unbind("id", id))
 }
@@ -162,8 +170,9 @@ def login(): Call = {
                   
 
 
+// @LINE:27
 // @LINE:26
-// @LINE:25
+// @LINE:23
 // @LINE:22
 // @LINE:21
 // @LINE:20
@@ -227,6 +236,7 @@ def at : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
+// @LINE:23
 // @LINE:22
 // @LINE:21
 // @LINE:20
@@ -234,7 +244,29 @@ def at : JavascriptReverseRoute = JavascriptReverseRoute(
 class ReverseDashboard {
     
 
-// @LINE:22
+// @LINE:20
+def pagingDashboard : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Dashboard.pagingDashboard",
+   """
+      function(page) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "play/my_dashboard/" + (""" + implicitly[PathBindable[Integer]].javascriptUnbind + """)("page", page)})
+      }
+   """
+)
+                        
+
+// @LINE:21
+def myProfile : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Dashboard.myProfile",
+   """
+      function() {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "play/my_profile"})
+      }
+   """
+)
+                        
+
+// @LINE:23
 def newPostFinish : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Dashboard.newPostFinish",
    """
@@ -245,7 +277,7 @@ def newPostFinish : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:21
+// @LINE:22
 def newPost : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Dashboard.newPost",
    """
@@ -266,23 +298,12 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
    """
 )
                         
-
-// @LINE:20
-def myProfile : JavascriptReverseRoute = JavascriptReverseRoute(
-   "controllers.Dashboard.myProfile",
-   """
-      function() {
-      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "play/my_profile"})
-      }
-   """
-)
-                        
     
 }
               
 
+// @LINE:27
 // @LINE:26
-// @LINE:25
 // @LINE:15
 // @LINE:14
 // @LINE:13
@@ -292,7 +313,7 @@ def myProfile : JavascriptReverseRoute = JavascriptReverseRoute(
 class ReverseApplication {
     
 
-// @LINE:25
+// @LINE:26
 def allPostJson : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Application.allPostJson",
    """
@@ -303,7 +324,7 @@ def allPostJson : JavascriptReverseRoute = JavascriptReverseRoute(
 )
                         
 
-// @LINE:26
+// @LINE:27
 def onePostJson : JavascriptReverseRoute = JavascriptReverseRoute(
    "controllers.Application.onePostJson",
    """
@@ -386,8 +407,9 @@ def login : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
+// @LINE:27
 // @LINE:26
-// @LINE:25
+// @LINE:23
 // @LINE:22
 // @LINE:21
 // @LINE:20
@@ -411,7 +433,7 @@ class ReverseRegistration {
 
 // @LINE:17
 def registration(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Registration.registration(), HandlerDef(this, "controllers.Registration", "registration", Seq(), "GET", """ GET /public/*path 				     controllers.Application.getAuthorPicture(path)""", _prefix + """play/registration""")
+   controllers.Registration.registration(), HandlerDef(this, "controllers.Registration", "registration", Seq(), "GET", """ GET 	/public/*path 				     	 controllers.Application.getAuthorPicture(path)""", _prefix + """play/registration""")
 )
                       
 
@@ -437,6 +459,7 @@ def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.
 }
                           
 
+// @LINE:23
 // @LINE:22
 // @LINE:21
 // @LINE:20
@@ -444,13 +467,25 @@ def at(path:String, file:String): play.api.mvc.HandlerRef[_] = new play.api.mvc.
 class ReverseDashboard {
     
 
-// @LINE:22
+// @LINE:20
+def pagingDashboard(page:Integer): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Dashboard.pagingDashboard(page), HandlerDef(this, "controllers.Dashboard", "pagingDashboard", Seq(classOf[Integer]), "GET", """""", _prefix + """play/my_dashboard/$page<[^/]+>""")
+)
+                      
+
+// @LINE:21
+def myProfile(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Dashboard.myProfile(), HandlerDef(this, "controllers.Dashboard", "myProfile", Seq(), "GET", """""", _prefix + """play/my_profile""")
+)
+                      
+
+// @LINE:23
 def newPostFinish(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Dashboard.newPostFinish(), HandlerDef(this, "controllers.Dashboard", "newPostFinish", Seq(), "POST", """""", _prefix + """play/newpost_finish""")
 )
                       
 
-// @LINE:21
+// @LINE:22
 def newPost(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Dashboard.newPost(), HandlerDef(this, "controllers.Dashboard", "newPost", Seq(), "GET", """""", _prefix + """play/newpost""")
 )
@@ -461,18 +496,12 @@ def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Dashboard.index(), HandlerDef(this, "controllers.Dashboard", "index", Seq(), "GET", """""", _prefix + """play/my_dashboard""")
 )
                       
-
-// @LINE:20
-def myProfile(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
-   controllers.Dashboard.myProfile(), HandlerDef(this, "controllers.Dashboard", "myProfile", Seq(), "GET", """""", _prefix + """play/my_profile""")
-)
-                      
     
 }
                           
 
+// @LINE:27
 // @LINE:26
-// @LINE:25
 // @LINE:15
 // @LINE:14
 // @LINE:13
@@ -482,13 +511,13 @@ def myProfile(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 class ReverseApplication {
     
 
-// @LINE:25
+// @LINE:26
 def allPostJson(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.allPostJson(), HandlerDef(this, "controllers.Application", "allPostJson", Seq(), "GET", """JSON""", _prefix + """api/all_post_json""")
 )
                       
 
-// @LINE:26
+// @LINE:27
 def onePostJson(id:Integer): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.onePostJson(id), HandlerDef(this, "controllers.Application", "onePostJson", Seq(classOf[Integer]), "GET", """""", _prefix + """api/one_post_json/$id<[^/]+>""")
 )
