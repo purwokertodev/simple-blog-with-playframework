@@ -4,6 +4,7 @@ function checkPass()
     //Store the password field objects into variables ...
     var pass1 = document.getElementById('pwd1');
     var pass2 = document.getElementById('pwd2');
+	var submitButton = document.getElementById('sm_button');
     //Store the Confimation Message Object ...
     var message = document.getElementById('confirmMessage');
     //Set the colors we will be using ...
@@ -18,6 +19,7 @@ function checkPass()
         pass2.style.backgroundColor = goodColor;
         message.style.color = goodColor;
         message.innerHTML = "Passwords Match!"
+		submitButton.disabled = false;
     }else{
         //The passwords do not match.
         //Set the color to the bad color and
@@ -25,5 +27,8 @@ function checkPass()
         pass2.style.backgroundColor = badColor;
         message.style.color = badColor;
         message.innerHTML = "Passwords Do Not Match!"
+		submitButton.disabled = true;
     }
-} 
+}
+
+ 
