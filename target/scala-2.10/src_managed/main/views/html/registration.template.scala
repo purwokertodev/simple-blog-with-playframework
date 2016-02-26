@@ -76,19 +76,20 @@ Seq[Any](format.raw/*1.25*/("""
             <div class="form-group">
                 <label class="control-label col-sm-2" for="pwd">Password:</label>
                 <div class="col-sm-4">
-                    <input type="password" required="true" class="form-control" id="pwd1" name="password" placeholder="Password"/>
+                    <input type="password" required="true" class="form-control" id="pwd1" name="password" placeholder="Password" onchange="checkPassword(); return false;" onkeyup="checkPassword(); return false;"/>
                 </div>
+				<span id="passwordLengthMessage"></span>
             </div>
 			<div class="form-group">
 				<label class="control-label col-sm-2" for="pwd2">Confirm Password:</label>
 				<div class="col-sm-4">
-					<input type="password" required="true" class="form-control" id="pwd2" name="password2" placeholder="Type your password again" onchange="checkPass(); return false;" onkeyup="checkPass(); return false;"/>
+					<input type="password" required="true" class="form-control" id="pwd2" name="password2" placeholder="Type your password again" onchange="checkPassord(); return false;" onkeyup="checkPassword(); return false;"/>
 				</div>
 				<span id="confirmMessage"></span>
 			</div>
             <button type="submit" class="btn btn-primary" id="sm_button" disabled="true">Submit</button>
         </div>
-        """)))})),format.raw/*63.10*/("""
+        """)))})),format.raw/*64.10*/("""
     </div>
 </div>
 
@@ -104,11 +105,11 @@ Seq[Any](format.raw/*1.25*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Fri Feb 26 16:23:36 ICT 2016
+                    DATE: Fri Feb 26 16:49:42 ICT 2016
                     SOURCE: E:/JIMAT/play-project/user_management/app/views/registration.scala.html
-                    HASH: 217ab89db48bf9fbc02fb149e986acf2b7945313
-                    MATRIX: 787->1|921->24|951->46|988->49|1013->66|1051->67|1232->212|1269->240|1309->242|1479->376|1493->381|1529->395|1597->431|1644->442|1744->532|1784->533|4097->2814
-                    LINES: 26->1|30->1|32->4|33->5|33->5|33->5|40->12|40->12|40->12|43->15|43->15|43->15|45->17|46->18|46->18|46->18|91->63
+                    HASH: 741e322f0bfc662129eb5b414446c40bb7d4517c
+                    MATRIX: 787->1|921->24|951->46|988->49|1013->66|1051->67|1232->212|1269->240|1309->242|1479->376|1493->381|1529->395|1597->431|1644->442|1744->532|1784->533|4233->2950
+                    LINES: 26->1|30->1|32->4|33->5|33->5|33->5|40->12|40->12|40->12|43->15|43->15|43->15|45->17|46->18|46->18|46->18|92->64
                     -- GENERATED --
                 */
             

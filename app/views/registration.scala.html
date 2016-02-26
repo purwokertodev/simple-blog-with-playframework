@@ -48,13 +48,14 @@
             <div class="form-group">
                 <label class="control-label col-sm-2" for="pwd">Password:</label>
                 <div class="col-sm-4">
-                    <input type="password" required="true" class="form-control" id="pwd1" name="password" placeholder="Password"/>
+                    <input type="password" required="true" class="form-control" id="pwd1" name="password" placeholder="Password" onchange="checkPassword(); return false;" onkeyup="checkPassword(); return false;"/>
                 </div>
+				<span id="passwordLengthMessage"></span>
             </div>
 			<div class="form-group">
 				<label class="control-label col-sm-2" for="pwd2">Confirm Password:</label>
 				<div class="col-sm-4">
-					<input type="password" required="true" class="form-control" id="pwd2" name="password2" placeholder="Type your password again" onchange="checkPass(); return false;" onkeyup="checkPass(); return false;"/>
+					<input type="password" required="true" class="form-control" id="pwd2" name="password2" placeholder="Type your password again" onchange="checkPassord(); return false;" onkeyup="checkPassword(); return false;"/>
 				</div>
 				<span id="confirmMessage"></span>
 			</div>
