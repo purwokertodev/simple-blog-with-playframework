@@ -59,9 +59,9 @@ Seq[Any](format.raw/*1.38*/("""
 
                     </div>
                     <div class="form-group">
-                        <label class="control-label col-sm-2" for="pwd">Password:</label>
+                        <label class="control-label col-sm-2" for="pwd1">Password:</label>
                         <div class="col-sm-4">
-                            <input type="password" class="form-control" id="pwd" name="password" placeholder="Your Password"/>
+                            <input type="password" class="form-control" id="pwd1" name="password" placeholder="Your Password"/>
                         </div>
                     </div>
                     <div class="checkbox">
@@ -85,10 +85,10 @@ Seq[Any](format.raw/*1.38*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed Feb 24 20:45:58 ICT 2016
+                    DATE: Fri Feb 26 14:05:11 ICT 2016
                     SOURCE: E:/JIMAT/play-project/user_management/app/views/login.scala.html
-                    HASH: 842487845d1d3b650a8b2f95f4924d98d5dac957
-                    MATRIX: 791->1|938->37|968->59|1005->62|1030->79|1068->80|1266->242|1304->271|1344->273|1546->439|1560->444|1597->459|1673->503|1724->518|1761->546|1801->548|2005->716|2019->721|2055->735|2131->779|2182->794|2239->842|2278->843|2669->1197|2697->1215|2726->1221|3490->1953
+                    HASH: e62ff2879646fda0684e285cb95ae3298c2fe475
+                    MATRIX: 791->1|938->37|968->59|1005->62|1030->79|1068->80|1266->242|1304->271|1344->273|1546->439|1560->444|1597->459|1673->503|1724->518|1761->546|1801->548|2005->716|2019->721|2055->735|2131->779|2182->794|2239->842|2278->843|2669->1197|2697->1215|2726->1221|3492->1955
                     LINES: 26->1|30->1|32->4|33->5|33->5|33->5|40->12|40->12|40->12|43->15|43->15|43->15|45->17|46->18|46->18|46->18|49->21|49->21|49->21|51->23|52->24|52->24|52->24|57->29|57->29|57->29|72->44
                     -- GENERATED --
                 */

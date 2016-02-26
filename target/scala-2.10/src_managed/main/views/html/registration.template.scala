@@ -76,12 +76,19 @@ Seq[Any](format.raw/*1.25*/("""
             <div class="form-group">
                 <label class="control-label col-sm-2" for="pwd">Password:</label>
                 <div class="col-sm-4">
-                    <input type="password" class="form-control" id="pwd" name="password" placeholder="Password"/>
+                    <input type="password" class="form-control" id="pwd1" name="password" placeholder="Password"/>
                 </div>
             </div>
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="pwd2">Confirm Password:</label>
+				<div class="col-sm-4">
+					<input type="password" class="form-control" id="pwd2" name="password2" placeholder="Type your password again" onkeyup="checkPass(); return false;"/>
+				</div>
+				<span id="confirmMessage"></span>
+			</div>
             <button type="submit" class="btn btn-default">Submit</button>
         </div>
-        """)))})),format.raw/*56.10*/("""
+        """)))})),format.raw/*63.10*/("""
     </div>
 </div>
 
@@ -97,11 +104,11 @@ Seq[Any](format.raw/*1.25*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed Feb 24 20:20:34 ICT 2016
+                    DATE: Fri Feb 26 14:08:13 ICT 2016
                     SOURCE: E:/JIMAT/play-project/user_management/app/views/registration.scala.html
-                    HASH: b2a40e97165bbbe3709588a9f5d7a64fd14cf3a8
-                    MATRIX: 787->1|921->24|951->46|988->49|1013->66|1051->67|1232->212|1269->240|1309->242|1479->376|1493->381|1529->395|1597->431|1644->442|1744->532|1784->533|3577->2294
-                    LINES: 26->1|30->1|32->4|33->5|33->5|33->5|40->12|40->12|40->12|43->15|43->15|43->15|45->17|46->18|46->18|46->18|84->56
+                    HASH: 5310ca00f6698262a183d2e000d786f19d3d137a
+                    MATRIX: 787->1|921->24|951->46|988->49|1013->66|1051->67|1232->212|1269->240|1309->242|1479->376|1493->381|1529->395|1597->431|1644->442|1744->532|1784->533|3932->2649
+                    LINES: 26->1|30->1|32->4|33->5|33->5|33->5|40->12|40->12|40->12|43->15|43->15|43->15|45->17|46->18|46->18|46->18|91->63
                     -- GENERATED --
                 */
             
