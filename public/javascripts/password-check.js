@@ -1,3 +1,4 @@
+//form registration validation for password
 function checkPassword(){
 	var pass1 = document.getElementById('pwd1');
     var pass2 = document.getElementById('pwd2');
@@ -30,5 +31,21 @@ function checkPassword(){
 		}
 	}
 }
+
+//login form validation
+
+function checkLoginForm(){
+	var email = document.getElementById('email');
+	var pwd = document.getElementById('pwd');
+	var loginButton = document.getElementById('login_button');
+	
+	if(email.value.length > 0 && pwd.value.length > 0){
+		loginButton.disabled = false;
+	}else{
+		loginButton.disabled = true;
+	}
+}
+
+
 
  
