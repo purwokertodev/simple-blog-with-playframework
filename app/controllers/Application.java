@@ -89,7 +89,7 @@ public class Application extends Controller {
     }
 
     public static Result logout(){
-        session().clear();
+        session().remove("email");
         flash("success", "You've been logged out..");
         return redirect(routes.Application.login());
     }
@@ -100,7 +100,7 @@ public class Application extends Controller {
 			flash("errors", "Invalid email or password !!");
             return badRequest(views.html.login.render(loginForm));
         }else {
-            session().clear();
+            session().remove("email");
             session("email", lf.get().getEmail());
             return redirect(routes.Dashboard.index());
         }
