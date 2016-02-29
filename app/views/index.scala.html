@@ -11,7 +11,7 @@
             @if(p.getId() % 2 != 0){
             <div class="alert alert-success">
                 <h3>
-                    @p.getPostTitle()
+                    <a href="@routes.Application.postDetail(p.getId())">@p.getPostTitle()</a>
                 </h3>
                 <p>@p.getPostContent()</p>
 				<p></p>
@@ -21,7 +21,7 @@
             }else{
             <div class="alert alert-info">
                 <h3>
-                    @p.getPostTitle()
+                    <a href="@routes.Application.postDetail(p.getId())">@p.getPostTitle()</a>
                 </h3>
                 <p>@p.getPostContent()</p>
 				<p></p>

@@ -1,6 +1,6 @@
 // @SOURCE:E:/JIMAT/play-project/user_management/conf/routes
-// @HASH:eaf022bbca01943dc13c4bd2b9f6c02dfcb4df6b
-// @DATE:Fri Feb 26 13:33:42 ICT 2016
+// @HASH:7c2b1fc8b7b467fb587c1be91231d79e9de716c4
+// @DATE:Mon Feb 29 10:59:29 ICT 2016
 
 
 import play.core._
@@ -56,42 +56,50 @@ private[this] lazy val controllers_Application_authenticate5 = Route("POST", Pat
 private[this] lazy val controllers_Application_authorProfile6 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/author_detail/"),DynamicPart("id", """[^/]+""",true))))
         
 
-// @LINE:17
-private[this] lazy val controllers_Registration_registration7 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/registration"))))
+// @LINE:16
+private[this] lazy val controllers_Application_postDetail7 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/post_detail/"),DynamicPart("id", """[^/]+""",true))))
         
 
-// @LINE:18
-private[this] lazy val controllers_Registration_registrationFinish8 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/registration_finish"))))
+// @LINE:17
+private[this] lazy val controllers_Application_addCommentFinish8 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/add_comment"))))
         
 
 // @LINE:19
-private[this] lazy val controllers_Dashboard_index9 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/my_dashboard"))))
+private[this] lazy val controllers_Registration_registration9 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/registration"))))
         
 
 // @LINE:20
-private[this] lazy val controllers_Dashboard_pagingDashboard10 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/my_dashboard/"),DynamicPart("page", """[^/]+""",true))))
+private[this] lazy val controllers_Registration_registrationFinish10 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/registration_finish"))))
         
 
 // @LINE:21
-private[this] lazy val controllers_Dashboard_myProfile11 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/my_profile"))))
+private[this] lazy val controllers_Dashboard_index11 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/my_dashboard"))))
         
 
 // @LINE:22
-private[this] lazy val controllers_Dashboard_newPost12 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/newpost"))))
+private[this] lazy val controllers_Dashboard_pagingDashboard12 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/my_dashboard/"),DynamicPart("page", """[^/]+""",true))))
         
 
 // @LINE:23
-private[this] lazy val controllers_Dashboard_newPostFinish13 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/newpost_finish"))))
+private[this] lazy val controllers_Dashboard_myProfile13 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/my_profile"))))
         
 
-// @LINE:26
-private[this] lazy val controllers_Application_allPostJson14 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("api/all_post_json"))))
+// @LINE:24
+private[this] lazy val controllers_Dashboard_newPost14 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/newpost"))))
         
 
-// @LINE:27
-private[this] lazy val controllers_Application_onePostJson15 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("api/one_post_json/"),DynamicPart("id", """[^/]+""",true))))
+// @LINE:25
+private[this] lazy val controllers_Dashboard_newPostFinish15 = Route("POST", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("play/newpost_finish"))))
         
-def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """$page<[^/]+>""","""controllers.Application.paging(page:Integer)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/login""","""controllers.Application.login()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/logout""","""controllers.Application.logout()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/authenticate""","""controllers.Application.authenticate()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/author_detail/$id<[^/]+>""","""controllers.Application.authorProfile(id:Integer)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/registration""","""controllers.Registration.registration()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/registration_finish""","""controllers.Registration.registrationFinish()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/my_dashboard""","""controllers.Dashboard.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/my_dashboard/$page<[^/]+>""","""controllers.Dashboard.pagingDashboard(page:Integer)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/my_profile""","""controllers.Dashboard.myProfile()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/newpost""","""controllers.Dashboard.newPost()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/newpost_finish""","""controllers.Dashboard.newPostFinish()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/all_post_json""","""controllers.Application.allPostJson()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/one_post_json/$id<[^/]+>""","""controllers.Application.onePostJson(id:Integer)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+
+// @LINE:28
+private[this] lazy val controllers_Application_allPostJson16 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("api/all_post_json"))))
+        
+
+// @LINE:29
+private[this] lazy val controllers_Application_onePostJson17 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("api/one_post_json/"),DynamicPart("id", """[^/]+""",true))))
+        
+def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """$page<[^/]+>""","""controllers.Application.paging(page:Integer)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/login""","""controllers.Application.login()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/logout""","""controllers.Application.logout()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/authenticate""","""controllers.Application.authenticate()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/author_detail/$id<[^/]+>""","""controllers.Application.authorProfile(id:Integer)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/post_detail/$id<[^/]+>""","""controllers.Application.postDetail(id:Integer)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/add_comment""","""controllers.Application.addCommentFinish()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/registration""","""controllers.Registration.registration()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/registration_finish""","""controllers.Registration.registrationFinish()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/my_dashboard""","""controllers.Dashboard.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/my_dashboard/$page<[^/]+>""","""controllers.Dashboard.pagingDashboard(page:Integer)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/my_profile""","""controllers.Dashboard.myProfile()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/newpost""","""controllers.Dashboard.newPost()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/newpost_finish""","""controllers.Dashboard.newPostFinish()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/all_post_json""","""controllers.Application.allPostJson()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/one_post_json/$id<[^/]+>""","""controllers.Application.onePostJson(id:Integer)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]] 
 }}
@@ -155,72 +163,88 @@ case controllers_Application_authorProfile6(params) => {
 }
         
 
+// @LINE:16
+case controllers_Application_postDetail7(params) => {
+   call(params.fromPath[Integer]("id", None)) { (id) =>
+        invokeHandler(controllers.Application.postDetail(id), HandlerDef(this, "controllers.Application", "postDetail", Seq(classOf[Integer]),"GET", """""", Routes.prefix + """play/post_detail/$id<[^/]+>"""))
+   }
+}
+        
+
 // @LINE:17
-case controllers_Registration_registration7(params) => {
+case controllers_Application_addCommentFinish8(params) => {
+   call { 
+        invokeHandler(controllers.Application.addCommentFinish(), HandlerDef(this, "controllers.Application", "addCommentFinish", Nil,"POST", """""", Routes.prefix + """play/add_comment"""))
+   }
+}
+        
+
+// @LINE:19
+case controllers_Registration_registration9(params) => {
    call { 
         invokeHandler(controllers.Registration.registration(), HandlerDef(this, "controllers.Registration", "registration", Nil,"GET", """ GET 	/public/*path 				     	 controllers.Application.getAuthorPicture(path)""", Routes.prefix + """play/registration"""))
    }
 }
         
 
-// @LINE:18
-case controllers_Registration_registrationFinish8(params) => {
+// @LINE:20
+case controllers_Registration_registrationFinish10(params) => {
    call { 
         invokeHandler(controllers.Registration.registrationFinish(), HandlerDef(this, "controllers.Registration", "registrationFinish", Nil,"POST", """""", Routes.prefix + """play/registration_finish"""))
    }
 }
         
 
-// @LINE:19
-case controllers_Dashboard_index9(params) => {
+// @LINE:21
+case controllers_Dashboard_index11(params) => {
    call { 
         invokeHandler(controllers.Dashboard.index(), HandlerDef(this, "controllers.Dashboard", "index", Nil,"GET", """""", Routes.prefix + """play/my_dashboard"""))
    }
 }
         
 
-// @LINE:20
-case controllers_Dashboard_pagingDashboard10(params) => {
+// @LINE:22
+case controllers_Dashboard_pagingDashboard12(params) => {
    call(params.fromPath[Integer]("page", None)) { (page) =>
         invokeHandler(controllers.Dashboard.pagingDashboard(page), HandlerDef(this, "controllers.Dashboard", "pagingDashboard", Seq(classOf[Integer]),"GET", """""", Routes.prefix + """play/my_dashboard/$page<[^/]+>"""))
    }
 }
         
 
-// @LINE:21
-case controllers_Dashboard_myProfile11(params) => {
+// @LINE:23
+case controllers_Dashboard_myProfile13(params) => {
    call { 
         invokeHandler(controllers.Dashboard.myProfile(), HandlerDef(this, "controllers.Dashboard", "myProfile", Nil,"GET", """""", Routes.prefix + """play/my_profile"""))
    }
 }
         
 
-// @LINE:22
-case controllers_Dashboard_newPost12(params) => {
+// @LINE:24
+case controllers_Dashboard_newPost14(params) => {
    call { 
         invokeHandler(controllers.Dashboard.newPost(), HandlerDef(this, "controllers.Dashboard", "newPost", Nil,"GET", """""", Routes.prefix + """play/newpost"""))
    }
 }
         
 
-// @LINE:23
-case controllers_Dashboard_newPostFinish13(params) => {
+// @LINE:25
+case controllers_Dashboard_newPostFinish15(params) => {
    call { 
         invokeHandler(controllers.Dashboard.newPostFinish(), HandlerDef(this, "controllers.Dashboard", "newPostFinish", Nil,"POST", """""", Routes.prefix + """play/newpost_finish"""))
    }
 }
         
 
-// @LINE:26
-case controllers_Application_allPostJson14(params) => {
+// @LINE:28
+case controllers_Application_allPostJson16(params) => {
    call { 
         invokeHandler(controllers.Application.allPostJson(), HandlerDef(this, "controllers.Application", "allPostJson", Nil,"GET", """JSON""", Routes.prefix + """api/all_post_json"""))
    }
 }
         
 
-// @LINE:27
-case controllers_Application_onePostJson15(params) => {
+// @LINE:29
+case controllers_Application_onePostJson17(params) => {
    call(params.fromPath[Integer]("id", None)) { (id) =>
         invokeHandler(controllers.Application.onePostJson(id), HandlerDef(this, "controllers.Application", "onePostJson", Seq(classOf[Integer]),"GET", """""", Routes.prefix + """api/one_post_json/$id<[^/]+>"""))
    }

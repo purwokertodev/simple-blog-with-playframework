@@ -1,18 +1,24 @@
 package controllers;
 
 import models.Author;
+import models.Comment;
 import models.Post;
 import play.data.Form;
 import play.mvc.*;
 
+import java.text.ParseException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+import java.util.Locale;
+
 import play.libs.Json;
 
 
 public class Application extends Controller {
 
     public static Form<Login> loginForm = Form.form(Login.class);
+    public static Form<Comment> commentForm = Form.form(Comment.class);
 	
 	//JSON
 	public static Result allPostJson(){
@@ -50,6 +56,29 @@ public class Application extends Controller {
 		Integer totalData = Post.find.where().eq("author", a).findRowCount();
 		return ok(views.html.authorprofile.render(a, totalData));
 	}
+
+    public static Result postDetail(Integer id){
+        Post p = Post.find.byId(id);
+        List<Comment> commentList = Comment.findCommentByPost(p);
+        int commentSize = commentList.size();
+		session().clear();
+		session("post", p.getId().toString());
+        return ok(views.html.postdetail.render(p, commentList, commentSize, commentForm));
+    }
+
+    public static Result addCommentFinish(){
+        Form<Comment> cf = commentForm.bindFromRequest();
+        Comment c = new Comment();
+		String postId = session("post");
+		Post p = Post.find.byId(new Integer(postId));
+        c.setPost(p);
+        c.setCommentatorName(cf.get().getCommentatorName());
+        c.setCommentContent(cf.get().getCommentContent());
+        c.setCommentDate(new Date());
+        c.save();
+		session().remove("post");
+        return redirect(routes.Application.postDetail(c.getPost().getId()));
+    }
 	
 	public static Result getAuthorPicture(String path){
 		return ok();

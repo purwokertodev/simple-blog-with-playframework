@@ -1,0 +1,67 @@
+@(p: Post, comments: List[Comment], commentSize : Integer, commentForm: Form[Comment])
+
+@import helper._
+
+@main("Play Blog"){
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        Post Detail
+    </div>
+    <div class="panel-body">
+        <div class="well">
+            <h3>
+                @p.getPostTitle()
+            </h3>
+            <p>@p.getPostContent()</p>
+            <p></p>
+            <a href="@routes.Application.authorProfile(p.getAuthor().getId())" class="btn btn-warning btn-sm"><img src="@routes.Assets.at(p.getAuthor().getPictureLocation())"  class="img-rounded" alt="My Picture" width="40" height="40"> <span class="badge">@p.getAuthor().getAuthorName()</span></a><br>
+            <time>@p.getPostingDate().format("MMM dd yyyy, HH:mm:ss")</time>
+        </div>
+        @if(commentSize == 0){
+            <h3>No comments yet</h3>
+        }else{
+            <div class="panel panel-default">
+                @for(c <- comments){
+                    @if(c.getId() % 2 != 0){
+                        <div class="alert alert-success">
+                            <h4>@c.getCommentatorName()</h4>
+                            <p>@c.getCommentContent()</p>
+                            <p></p>
+                            <time>@c.getCommentDate().format("MMM dd yyyy, HH:mm:ss")</time>
+                        </div>
+                    }else{
+                        <div class="alert alert-info">
+                            <h4>@c.getCommentatorName()</h4>
+                            <p>@c.getCommentContent()</p>
+                            <p></p>
+                            <time>@c.getCommentDate().format("MMM dd yyyy, HH:mm:ss")</time>
+                        </div>
+                    }
+                }
+            </div>
+        }
+        <div class="well">
+            @form(action = routes.Application.addCommentFinish()){
+                <div class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="commentatorName">Full Name:</label>
+                        <div class="col-sm-4">
+                            <input type="text" class="form-control" id="commentatorName" name="commentatorName" placeholder="Your Name"/>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-sm-2" for="commentContent">Comment content:</label>
+                        <div class="col-sm-4">
+                            <textarea cols="30" rows="10" class="form-control" id="commentContent" name="commentContent" placeholder="Your comment" onchange="checkCommentForm(); return false;" onkeyup="checkCommentForm(); return false;"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-default" id="post_comment_button" disabled="true">Create comment</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+}

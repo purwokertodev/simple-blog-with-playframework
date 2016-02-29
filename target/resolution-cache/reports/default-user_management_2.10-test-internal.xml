@@ -7,28 +7,28 @@
 		revision="1.0-SNAPSHOT"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160225164712"/>
+		date="20160229101340"/>
 	<dependencies>
 		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
-			<revision name="1.9.13" status="release" pubdate="20160107082429" resolver="Maven2 Local" artresolver="Maven2 Local" homepage="http://jackson.codehaus.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="64">
+			<revision name="1.9.13" status="release" pubdate="20160107082429" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="64">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1506" time="79" location="C:\play-2.2.6\framework\..\repository\cache\org.codehaus.jackson\jackson-mapper-asl\ivy-1.9.13.xml" searched="true" original-local-location="C:\play-2.2.6\framework\..\repository\cache\org.codehaus.jackson\jackson-mapper-asl\ivy-1.9.13.xml.original" origin-is-local="false" origin-location="file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom"/>
+				<metadata-artifact status="no" details="" size="2687" time="0" location="C:\play-2.2.6\framework\..\repository\cache\org.codehaus.jackson\jackson-mapper-asl\ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom"/>
 				<caller organisation="default" name="user_management_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="1.0-SNAPSHOT"/>
 				<artifacts>
-					<artifact name="jackson-mapper-asl" type="jar" ext="jar" status="successful" details="" size="780664" time="225" location="C:\play-2.2.6\framework\..\repository\cache\org.codehaus.jackson\jackson-mapper-asl\jars\jackson-mapper-asl-1.9.13.jar">
+					<artifact name="jackson-mapper-asl" type="jar" ext="jar" status="no" details="" size="780664" time="0" location="C:\play-2.2.6\framework\..\repository\cache\org.codehaus.jackson\jackson-mapper-asl\jars\jackson-mapper-asl-1.9.13.jar">
 						<origin-location is-local="false" location="file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>
 		</module>
 		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
-			<revision name="1.9.13" status="release" pubdate="20160107082429" resolver="Maven2 Local" artresolver="Maven2 Local" homepage="http://jackson.codehaus.org" downloaded="true" searched="true" default="false" conf="master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master" position="65">
+			<revision name="1.9.13" status="release" pubdate="20160107082429" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="master(*), default, compile, runtime(*), runtime, default(compile), compile(*), master" position="65">
 				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1279" time="55" location="C:\play-2.2.6\framework\..\repository\cache\org.codehaus.jackson\jackson-core-asl\ivy-1.9.13.xml" searched="true" original-local-location="C:\play-2.2.6\framework\..\repository\cache\org.codehaus.jackson\jackson-core-asl\ivy-1.9.13.xml.original" origin-is-local="false" origin-location="file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom"/>
+				<metadata-artifact status="no" details="" size="2467" time="0" location="C:\play-2.2.6\framework\..\repository\cache\org.codehaus.jackson\jackson-core-asl\ivy-1.9.13.xml" searched="false" origin-is-local="false" origin-location="file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom"/>
 				<caller organisation="default" name="user_management_2.10" conf="test, compile, provided, test-internal, runtime, optional" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="1.0-SNAPSHOT"/>
 				<caller organisation="org.codehaus.jackson" name="jackson-mapper-asl" conf="default, compile, runtime, master" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="1.9.13"/>
 				<artifacts>
-					<artifact name="jackson-core-asl" type="jar" ext="jar" status="successful" details="" size="232248" time="37" location="C:\play-2.2.6\framework\..\repository\cache\org.codehaus.jackson\jackson-core-asl\jars\jackson-core-asl-1.9.13.jar">
+					<artifact name="jackson-core-asl" type="jar" ext="jar" status="no" details="" size="232248" time="0" location="C:\play-2.2.6\framework\..\repository\cache\org.codehaus.jackson\jackson-core-asl\jars\jackson-core-asl-1.9.13.jar">
 						<origin-location is-local="false" location="file:/C:/Users/WURI/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar"/>
 					</artifact>
 				</artifacts>

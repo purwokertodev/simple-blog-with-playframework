@@ -37,6 +37,14 @@ public class Comment extends Model {
         return c;
     }
 
+    public Comment(){
+
+    }
+
+    public Comment(Post post){
+        this.post = post;
+    }
+
     public Integer getId() {
         return id;
     }
