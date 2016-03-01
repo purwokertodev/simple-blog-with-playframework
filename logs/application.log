@@ -1,27 +1,103 @@
-2016-02-29 20:00:50,163 - [INFO] - from play in pool-4-thread-2 
+2016-03-01 10:32:44,561 - [INFO] - from play in pool-4-thread-1 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2016-02-29 20:01:10,485 - [INFO] - from play in play-internal-execution-context-1 
+2016-03-01 10:34:18,806 - [INFO] - from play in play-internal-execution-context-1 
 database [default] connected at jdbc:mysql://localhost:3306/play_app_1
 
-2016-02-29 20:01:18,011 - [INFO] - from play in play-internal-execution-context-1 
+2016-03-01 10:34:28,068 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-02-29 20:03:12,901 - [INFO] - from play in play-internal-execution-context-2 
+2016-03-01 10:36:31,147 - [INFO] - from play in play-internal-execution-context-1 
 database [default] connected at jdbc:mysql://localhost:3306/play_app_1
 
-2016-02-29 20:03:13,138 - [INFO] - from play in play-internal-execution-context-2 
+2016-03-01 10:36:31,430 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-02-29 20:06:39,533 - [INFO] - from play in play-internal-execution-context-4 
+2016-03-01 10:38:30,280 - [INFO] - from play in play-internal-execution-context-1 
 database [default] connected at jdbc:mysql://localhost:3306/play_app_1
 
-2016-02-29 20:06:39,774 - [INFO] - from play in play-internal-execution-context-4 
+2016-03-01 10:38:30,537 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 
-2016-02-29 20:08:44,472 - [INFO] - from play in play-internal-execution-context-4 
+2016-03-01 10:54:00,661 - [ERROR] - from application in New I/O worker #4 
+
+
+! @6p9mb7ojb - Internal server error, for (GET) [/play/my_dashboard] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not found: value form]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:304) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:298) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:298) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:296) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:296) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.2.6]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+
+2016-03-01 10:55:24,846 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6p9mbcj90 - Internal server error, for (GET) [/play/my_dashboard] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not found: value form]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14$$anonfun$apply$16.apply(PlayReloader.scala:304) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:304) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2$$anonfun$apply$14.apply(PlayReloader.scala:298) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:298) ~[na:na]
+	at play.PlayReloader$$anon$1$$anonfun$reload$2.apply(PlayReloader.scala:296) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library.jar:na]
+	at play.PlayReloader$$anon$1.reload(PlayReloader.scala:296) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:104) ~[play_2.10.jar:2.2.6]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:102) ~[play_2.10.jar:2.2.6]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library.jar:na]
+
+2016-03-01 10:55:47,322 - [INFO] - from play in play-internal-execution-context-4 
 database [default] connected at jdbc:mysql://localhost:3306/play_app_1
 
-2016-02-29 20:08:44,685 - [INFO] - from play in play-internal-execution-context-4 
+2016-03-01 10:55:47,526 - [INFO] - from play in play-internal-execution-context-4 
+Application started (Dev)
+
+2016-03-01 10:57:41,546 - [INFO] - from play in play-internal-execution-context-4 
+database [default] connected at jdbc:mysql://localhost:3306/play_app_1
+
+2016-03-01 10:57:41,798 - [INFO] - from play in play-internal-execution-context-4 
+Application started (Dev)
+
+2016-03-01 10:58:37,311 - [INFO] - from play in play-internal-execution-context-4 
+database [default] connected at jdbc:mysql://localhost:3306/play_app_1
+
+2016-03-01 10:58:37,553 - [INFO] - from play in play-internal-execution-context-4 
+Application started (Dev)
+
+2016-03-01 11:03:54,156 - [INFO] - from play in play-internal-execution-context-4 
+database [default] connected at jdbc:mysql://localhost:3306/play_app_1
+
+2016-03-01 11:03:54,392 - [INFO] - from play in play-internal-execution-context-4 
+Application started (Dev)
+
+2016-03-01 11:07:18,645 - [INFO] - from play in play-internal-execution-context-4 
+database [default] connected at jdbc:mysql://localhost:3306/play_app_1
+
+2016-03-01 11:07:18,863 - [INFO] - from play in play-internal-execution-context-4 
 Application started (Dev)
 
