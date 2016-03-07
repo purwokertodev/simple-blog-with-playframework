@@ -7,7 +7,7 @@
 		revision="1.0-SNAPSHOT"
 		conf="test"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160229101340"/>
+		date="20160301142207"/>
 	<dependencies>
 		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
 			<revision name="1.9.13" status="release" pubdate="20160107082429" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="64">
