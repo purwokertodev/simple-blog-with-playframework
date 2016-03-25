@@ -1,6 +1,6 @@
 // @SOURCE:E:/JIMAT/play-project/user_management/conf/routes
-// @HASH:7c2b1fc8b7b467fb587c1be91231d79e9de716c4
-// @DATE:Mon Feb 29 10:59:29 ICT 2016
+// @HASH:785cb3948cab6b229c7ca9be5fda4e8662e15b1f
+// @DATE:Thu Mar 24 14:09:31 ICT 2016
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -13,6 +13,7 @@ import play.libs.F
 import Router.queryString
 
 
+// @LINE:30
 // @LINE:29
 // @LINE:28
 // @LINE:25
@@ -107,6 +108,7 @@ def index(): Call = {
 }
                           
 
+// @LINE:30
 // @LINE:29
 // @LINE:28
 // @LINE:17
@@ -123,6 +125,12 @@ class ReverseApplication {
 // @LINE:28
 def allPostJson(): Call = {
    Call("GET", _prefix + { _defaultPrefix } + "api/all_post_json")
+}
+                                                
+
+// @LINE:30
+def oneAuthorJson(id:Integer): Call = {
+   Call("GET", _prefix + { _defaultPrefix } + "api/one_author_json/" + implicitly[PathBindable[Integer]].unbind("id", id))
 }
                                                 
 
@@ -186,6 +194,7 @@ def login(): Call = {
                   
 
 
+// @LINE:30
 // @LINE:29
 // @LINE:28
 // @LINE:25
@@ -320,6 +329,7 @@ def index : JavascriptReverseRoute = JavascriptReverseRoute(
 }
               
 
+// @LINE:30
 // @LINE:29
 // @LINE:28
 // @LINE:17
@@ -339,6 +349,17 @@ def allPostJson : JavascriptReverseRoute = JavascriptReverseRoute(
    """
       function() {
       return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/all_post_json"})
+      }
+   """
+)
+                        
+
+// @LINE:30
+def oneAuthorJson : JavascriptReverseRoute = JavascriptReverseRoute(
+   "controllers.Application.oneAuthorJson",
+   """
+      function(id) {
+      return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "api/one_author_json/" + (""" + implicitly[PathBindable[Integer]].javascriptUnbind + """)("id", id)})
       }
    """
 )
@@ -449,6 +470,7 @@ def login : JavascriptReverseRoute = JavascriptReverseRoute(
         
 
 
+// @LINE:30
 // @LINE:29
 // @LINE:28
 // @LINE:25
@@ -544,6 +566,7 @@ def index(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
 }
                           
 
+// @LINE:30
 // @LINE:29
 // @LINE:28
 // @LINE:17
@@ -560,6 +583,12 @@ class ReverseApplication {
 // @LINE:28
 def allPostJson(): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
    controllers.Application.allPostJson(), HandlerDef(this, "controllers.Application", "allPostJson", Seq(), "GET", """JSON""", _prefix + """api/all_post_json""")
+)
+                      
+
+// @LINE:30
+def oneAuthorJson(id:Integer): play.api.mvc.HandlerRef[_] = new play.api.mvc.HandlerRef(
+   controllers.Application.oneAuthorJson(id), HandlerDef(this, "controllers.Application", "oneAuthorJson", Seq(classOf[Integer]), "GET", """""", _prefix + """api/one_author_json/$id<[^/]+>""")
 )
                       
 

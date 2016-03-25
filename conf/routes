@@ -27,3 +27,4 @@ POST 	/play/newpost_finish				 controllers.Dashboard.newPostFinish()
 #JSON
 GET /api/all_post_json                  controllers.Application.allPostJson()
 GET /api/one_post_json/:id              controllers.Application.onePostJson(id : Integer)
+GET /api/one_author_json/:id			controllers.Application.oneAuthorJson(id : Integer)

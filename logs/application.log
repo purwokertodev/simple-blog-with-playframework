@@ -1,9 +1,9 @@
-2016-03-02 20:23:05,347 - [INFO] - from play in pool-4-thread-3 
+2016-03-25 15:07:21,551 - [INFO] - from play in pool-4-thread-3 
 Listening for HTTP on /0:0:0:0:0:0:0:0:9000
 
-2016-03-02 20:24:44,979 - [INFO] - from play in play-internal-execution-context-1 
+2016-03-25 15:09:11,036 - [INFO] - from play in play-internal-execution-context-1 
 database [default] connected at jdbc:mysql://localhost:3306/play_app_1
 
-2016-03-02 20:24:50,980 - [INFO] - from play in play-internal-execution-context-1 
+2016-03-25 15:09:18,411 - [INFO] - from play in play-internal-execution-context-1 
 Application started (Dev)
 

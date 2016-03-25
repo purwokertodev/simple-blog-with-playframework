@@ -4,7 +4,7 @@
 		module="user_management_2.10"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20160301142207"
+		publication="20160323184115"
 	>
 		<description>
 		user_management

@@ -30,6 +30,11 @@ public class Application extends Controller {
 		Post post = Post.find.byId(id);
 		return ok(Json.toJson(post));
 	}
+	
+	public static Result oneAuthorJson(Integer id){
+		Author a = Author.find.byId(id);
+		return ok(Json.toJson(a));
+	}
 
     public static Result index() {
         return paging(1);

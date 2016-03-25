@@ -1,6 +1,6 @@
 // @SOURCE:E:/JIMAT/play-project/user_management/conf/routes
-// @HASH:7c2b1fc8b7b467fb587c1be91231d79e9de716c4
-// @DATE:Mon Feb 29 10:59:29 ICT 2016
+// @HASH:785cb3948cab6b229c7ca9be5fda4e8662e15b1f
+// @DATE:Thu Mar 24 14:09:31 ICT 2016
 
 
 import play.core._
@@ -99,7 +99,11 @@ private[this] lazy val controllers_Application_allPostJson16 = Route("GET", Path
 // @LINE:29
 private[this] lazy val controllers_Application_onePostJson17 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("api/one_post_json/"),DynamicPart("id", """[^/]+""",true))))
         
-def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """$page<[^/]+>""","""controllers.Application.paging(page:Integer)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/login""","""controllers.Application.login()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/logout""","""controllers.Application.logout()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/authenticate""","""controllers.Application.authenticate()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/author_detail/$id<[^/]+>""","""controllers.Application.authorProfile(id:Integer)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/post_detail/$id<[^/]+>""","""controllers.Application.postDetail(id:Integer)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/add_comment""","""controllers.Application.addCommentFinish()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/registration""","""controllers.Registration.registration()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/registration_finish""","""controllers.Registration.registrationFinish()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/my_dashboard""","""controllers.Dashboard.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/my_dashboard/$page<[^/]+>""","""controllers.Dashboard.pagingDashboard(page:Integer)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/my_profile""","""controllers.Dashboard.myProfile()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/newpost""","""controllers.Dashboard.newPost()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/newpost_finish""","""controllers.Dashboard.newPostFinish()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/all_post_json""","""controllers.Application.allPostJson()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/one_post_json/$id<[^/]+>""","""controllers.Application.onePostJson(id:Integer)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
+
+// @LINE:30
+private[this] lazy val controllers_Application_oneAuthorJson18 = Route("GET", PathPattern(List(StaticPart(Routes.prefix),StaticPart(Routes.defaultPrefix),StaticPart("api/one_author_json/"),DynamicPart("id", """[^/]+""",true))))
+        
+def documentation = List(("""GET""", prefix,"""controllers.Application.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """$page<[^/]+>""","""controllers.Application.paging(page:Integer)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """assets/$file<.+>""","""controllers.Assets.at(path:String = "/public", file:String)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/login""","""controllers.Application.login()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/logout""","""controllers.Application.logout()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/authenticate""","""controllers.Application.authenticate()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/author_detail/$id<[^/]+>""","""controllers.Application.authorProfile(id:Integer)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/post_detail/$id<[^/]+>""","""controllers.Application.postDetail(id:Integer)"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/add_comment""","""controllers.Application.addCommentFinish()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/registration""","""controllers.Registration.registration()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/registration_finish""","""controllers.Registration.registrationFinish()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/my_dashboard""","""controllers.Dashboard.index()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/my_dashboard/$page<[^/]+>""","""controllers.Dashboard.pagingDashboard(page:Integer)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/my_profile""","""controllers.Dashboard.myProfile()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/newpost""","""controllers.Dashboard.newPost()"""),("""POST""", prefix + (if(prefix.endsWith("/")) "" else "/") + """play/newpost_finish""","""controllers.Dashboard.newPostFinish()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/all_post_json""","""controllers.Application.allPostJson()"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/one_post_json/$id<[^/]+>""","""controllers.Application.onePostJson(id:Integer)"""),("""GET""", prefix + (if(prefix.endsWith("/")) "" else "/") + """api/one_author_json/$id<[^/]+>""","""controllers.Application.oneAuthorJson(id:Integer)""")).foldLeft(List.empty[(String,String,String)]) { (s,e) => e.asInstanceOf[Any] match {
   case r @ (_,_,_) => s :+ r.asInstanceOf[(String,String,String)]
   case l => s ++ l.asInstanceOf[List[(String,String,String)]] 
 }}
@@ -247,6 +251,14 @@ case controllers_Application_allPostJson16(params) => {
 case controllers_Application_onePostJson17(params) => {
    call(params.fromPath[Integer]("id", None)) { (id) =>
         invokeHandler(controllers.Application.onePostJson(id), HandlerDef(this, "controllers.Application", "onePostJson", Seq(classOf[Integer]),"GET", """""", Routes.prefix + """api/one_post_json/$id<[^/]+>"""))
+   }
+}
+        
+
+// @LINE:30
+case controllers_Application_oneAuthorJson18(params) => {
+   call(params.fromPath[Integer]("id", None)) { (id) =>
+        invokeHandler(controllers.Application.oneAuthorJson(id), HandlerDef(this, "controllers.Application", "oneAuthorJson", Seq(classOf[Integer]),"GET", """""", Routes.prefix + """api/one_author_json/$id<[^/]+>"""))
    }
 }
         
